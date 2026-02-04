@@ -262,11 +262,14 @@ function renderBookCard(book) {
   const icon = getCategoryIcon(book.category);
   const priceText = book.price ? `$${book.price.toFixed(2)}` : t('priceTBD');
 
+  const coverContent = book.cover
+    ? `<img src="${book.cover}" alt="${title}" style="width:100%; height:100%; object-fit:cover;">`
+    : `<div style="font-size:2.5rem; margin-bottom:12px;">${icon}</div><div>${title}</div>`;
+
   return `
     <div class="book-card" data-book-id="${book.id}" onclick="openBookDetail('${book.id}')">
       <div class="book-card__cover" style="background: ${gradient}">
-        <div style="font-size:2.5rem; margin-bottom:12px;">${icon}</div>
-        <div>${title}</div>
+        ${coverContent}
         <div class="book-card__cover-overlay">${getStatusBadge(book.status)}</div>
       </div>
       <div class="book-card__body">
@@ -396,15 +399,19 @@ function openBookDetail(bookId) {
   const icon = getCategoryIcon(book.category);
   const priceText = book.price ? `$${book.price.toFixed(2)}` : t('priceTBD');
 
+  const modalCoverContent = book.cover
+    ? `<img src="${book.cover}" alt="${title}" style="width:100%; height:100%; object-fit:cover; border-radius:12px;">`
+    : `<div>
+          <div style="font-size:3rem; margin-bottom:16px;">${icon}</div>
+          <div style="font-size:1.1rem; font-weight:600;">${title}</div>
+          ${book.subtitle ? `<div style="font-size:0.85rem; margin-top:8px; opacity:0.8;">${book.subtitle}</div>` : ''}
+        </div>`;
+
   content.innerHTML = `
     <button class="modal__close" onclick="closeModal()">&times;</button>
     <div class="modal__content">
       <div class="modal__cover" style="background: ${gradient}">
-        <div>
-          <div style="font-size:3rem; margin-bottom:16px;">${icon}</div>
-          <div style="font-size:1.1rem; font-weight:600;">${title}</div>
-          ${book.subtitle ? `<div style="font-size:0.85rem; margin-top:8px; opacity:0.8;">${book.subtitle}</div>` : ''}
-        </div>
+        ${modalCoverContent}
       </div>
       <div class="modal__info">
         <h2>${title}</h2>

@@ -776,7 +776,7 @@
       "price": 30.00,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/energy-s1-01.jpg",
+      "cover": "images/energy-s1-01.png",
       "preview_available": false,
       "tags": ["EnergyPlus", "에너지", "아파트", "시뮬레이션", "건축"],
       "series_number": 1
@@ -797,7 +797,7 @@
       "price": 30.00,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/energy-s1-02.jpg",
+      "cover": "images/energy-s1-02.png",
       "preview_available": false,
       "tags": ["EnergyPlus", "에너지", "사무소", "시뮬레이션", "건축"],
       "series_number": 2
@@ -818,7 +818,7 @@
       "price": 35.00,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/energy-s2-01.jpg",
+      "cover": "images/energy-s2-01.png",
       "preview_available": false,
       "tags": ["AI", "LLM", "에너지", "머신러닝", "건축"],
       "series_number": 1
@@ -838,7 +838,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-01.jpg",
+      "cover": "images/tech-01.png",
       "preview_available": false,
       "tags": ["스마트빌딩", "IoT", "자동화", "건축"]
     },
@@ -857,7 +857,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-02.jpg",
+      "cover": "images/tech-02.png",
       "preview_available": false,
       "tags": ["탄소중립", "기후변화", "에너지", "정책"]
     },
@@ -876,7 +876,7 @@
       "format": ["html"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-03.jpg",
+      "cover": "images/tech-03.png",
       "preview_available": false,
       "tags": ["디지털트윈", "React", "IoT", "시뮬레이션"]
     },
@@ -895,7 +895,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-04.jpg",
+      "cover": "images/tech-04.png",
       "preview_available": false,
       "tags": ["BACnet", "Modbus", "MQTT", "통신", "빌딩자동화"]
     },
@@ -914,7 +914,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-05.jpg",
+      "cover": "images/tech-05.png",
       "preview_available": false,
       "tags": ["자동제어", "PID", "HVAC", "빌딩자동화"]
     },
@@ -933,7 +933,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-06.jpg",
+      "cover": "images/tech-06.png",
       "preview_available": false,
       "tags": ["에너지예측", "머신러닝", "건물에너지", "데이터분석"]
     },
@@ -952,7 +952,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-07.jpg",
+      "cover": "images/tech-07.png",
       "preview_available": false,
       "tags": ["이상탐지", "FDD", "건물에너지", "AI"]
     },
@@ -971,7 +971,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-08.jpg",
+      "cover": "images/tech-08.png",
       "preview_available": false,
       "tags": ["기후변화", "에너지", "탄소", "정책"]
     },
@@ -990,7 +990,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-09.jpg",
+      "cover": "images/tech-09.png",
       "preview_available": false,
       "tags": ["AI", "창작", "LLM", "콘텐츠"]
     },
@@ -1009,7 +1009,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-10.jpg",
+      "cover": "images/tech-10.png",
       "preview_available": false,
       "tags": ["CBAM", "탄소국경세", "EU", "무역", "탄소"]
     },
@@ -1028,7 +1028,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-11.jpg",
+      "cover": "images/tech-11.png",
       "preview_available": false,
       "tags": ["스마트시티", "IoT", "도시계획", "기술"]
     },
@@ -1047,7 +1047,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-12.jpg",
+      "cover": "images/tech-12.png",
       "preview_available": false,
       "tags": ["가상센서", "IoT", "BEMS", "데이터"]
     },
@@ -1066,7 +1066,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-13.jpg",
+      "cover": "images/tech-13.png",
       "preview_available": false,
       "tags": ["에너지시스템", "교재", "대학", "강의"]
     },
@@ -1085,7 +1085,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-14.jpg",
+      "cover": "images/tech-14.png",
       "preview_available": false,
       "tags": ["파이썬", "Python", "프로그래밍", "데이터분석"]
     },
@@ -1104,7 +1104,7 @@
       "format": ["html"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-15.jpg",
+      "cover": "images/tech-15.png",
       "preview_available": false,
       "tags": ["아두이노", "Arduino", "React", "IoT"]
     },
@@ -1123,7 +1123,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-16.jpg",
+      "cover": "images/tech-16.png",
       "preview_available": false,
       "tags": ["오픈소스", "소프트웨어", "건물에너지"]
     },
@@ -1142,7 +1142,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-17.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["시험", "검증", "에너지시스템", "성능"]
     },
@@ -1161,7 +1161,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-18.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["에너지예측", "연구", "과제", "데이터"]
     },
@@ -1180,7 +1180,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-19.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["LLM", "AI", "GPT", "활용"]
     },
@@ -1199,7 +1199,7 @@
       "format": ["html"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-21.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["자연노화", "건축재료", "수명", "내구성"]
     },
@@ -1218,7 +1218,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-22.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["경제", "달러", "패권", "국제금융"]
     },
@@ -1237,7 +1237,7 @@
       "format": ["html"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-31.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["중고차", "자동차", "구매가이드", "생활"]
     },
@@ -1256,7 +1256,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-41.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["탄소중립", "에너지전환", "산업", "정책"]
     },
@@ -1275,7 +1275,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-42.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["탄소중립", "도시", "스마트시티", "설계"]
     },
@@ -1294,7 +1294,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-43.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["에너지최적화", "건물", "시뮬레이션", "설계"]
     },
@@ -1313,7 +1313,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-51.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["출판", "비즈니스", "전략", "AI"]
     },
@@ -1332,7 +1332,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-61.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["전기회로", "공학", "교재", "대학"]
     },
@@ -1351,7 +1351,7 @@
       "format": ["html", "pdf"],
       "price": null,
       "isbn": null,
-      "cover": "images/tech-62.jpg",
+      "cover": null,
       "preview_available": false,
       "tags": ["기밀측정", "건축", "성능", "에너지"]
     }
