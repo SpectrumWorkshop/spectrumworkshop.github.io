@@ -9,11 +9,36 @@
     "series_tagline": "지식의 모든 빛깔을 담다"
   },
   "categories": [
-    {"id": "travel", "name_ko": "여행", "name_en": "Travel", "icon": "globe"},
-    {"id": "korean", "name_ko": "한국어 학습", "name_en": "Korean Language", "icon": "language"},
-    {"id": "energy", "name_ko": "에너지 시뮬레이션", "name_en": "Energy Simulation", "icon": "bolt"},
-    {"id": "fiction", "name_ko": "소설/문학", "name_en": "Fiction", "icon": "book"},
-    {"id": "tech", "name_ko": "기술서적", "name_en": "Technology", "icon": "cpu"}
+    {
+      "id": "travel",
+      "name_ko": "여행",
+      "name_en": "Travel",
+      "icon": "globe"
+    },
+    {
+      "id": "korean",
+      "name_ko": "한국어 학습",
+      "name_en": "Korean Language",
+      "icon": "language"
+    },
+    {
+      "id": "energy",
+      "name_ko": "에너지 시뮬레이션",
+      "name_en": "Energy Simulation",
+      "icon": "bolt"
+    },
+    {
+      "id": "fiction",
+      "name_ko": "소설/문학",
+      "name_en": "Fiction",
+      "icon": "book"
+    },
+    {
+      "id": "tech",
+      "name_ko": "기술서적",
+      "name_en": "Technology",
+      "icon": "cpu"
+    }
   ],
   "books": [
     {
@@ -27,13 +52,21 @@
       "language": "ko",
       "description_ko": "110개국 이상을 여행한 저자의 실전 독립여행 노하우를 담은 종합 가이드북",
       "description_en": "A comprehensive guidebook with practical independent travel know-how from an author who has traveled to 110+ countries",
-      "status": "published",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-00-01.jpg",
       "preview_available": true,
-      "tags": ["독립여행", "세계여행", "여행팁", "배낭여행"]
+      "tags": [
+        "독립여행",
+        "세계여행",
+        "여행팁",
+        "배낭여행"
+      ]
     },
     {
       "id": "travel-00-02",
@@ -46,13 +79,20 @@
       "language": "en",
       "description_ko": "110개국 이상을 여행한 저자의 영문판 독립여행 가이드",
       "description_en": "English edition of the practical independent travel guide from a 110+ country traveler",
-      "status": "published",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-00-02.jpg",
       "preview_available": true,
-      "tags": ["independent travel", "world travel", "backpacking"]
+      "tags": [
+        "independent travel",
+        "world travel",
+        "backpacking"
+      ]
     },
     {
       "id": "travel-10-01",
@@ -65,13 +105,21 @@
       "language": "ko",
       "description_ko": "아시아 전역의 다양한 문화와 여행 경험을 담은 지역 가이드",
       "description_en": "A regional guide covering diverse cultures and travel experiences across Asia",
-      "status": "published",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-10-01.jpg",
       "preview_available": true,
-      "tags": ["아시아", "동남아", "동아시아", "남아시아"]
+      "tags": [
+        "아시아",
+        "동남아",
+        "동아시아",
+        "남아시아"
+      ]
     },
     {
       "id": "travel-10-02",
@@ -84,13 +132,21 @@
       "language": "en",
       "description_ko": "110개국 이상을 여행한 저자의 영문판 아시아 여행 가이드",
       "description_en": "English edition of the Asia travel guide from a 110+ country traveler",
-      "status": "published",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-10-02.jpg",
       "preview_available": false,
-      "tags": ["asia", "southeast asia", "east asia", "south asia"]
+      "tags": [
+        "asia",
+        "southeast asia",
+        "east asia",
+        "south asia"
+      ]
     },
     {
       "id": "travel-11-01",
@@ -103,13 +159,20 @@
       "language": "ko",
       "description_ko": "잘 알려지지 않은 방글라데시의 매력을 발견하는 여행 가이드",
       "description_en": "A travel guide discovering the hidden charm of Bangladesh",
-      "status": "published",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-11-01.jpg",
       "preview_available": false,
-      "tags": ["방글라데시", "남아시아", "다카"]
+      "tags": [
+        "방글라데시",
+        "남아시아",
+        "다카"
+      ]
     },
     {
       "id": "travel-12-01",
@@ -122,13 +185,21 @@
       "language": "ko",
       "description_ko": "인도양의 보석, 스리랑카의 문화유산과 자연을 탐험하는 여행기",
       "description_en": "A travel journal exploring the cultural heritage and nature of Sri Lanka, the jewel of the Indian Ocean",
-      "status": "in_progress",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-12-01.jpg",
       "preview_available": false,
-      "tags": ["스리랑카", "남아시아", "콜롬보", "캔디"]
+      "tags": [
+        "스리랑카",
+        "남아시아",
+        "콜롬보",
+        "캔디"
+      ]
     },
     {
       "id": "travel-13-01",
@@ -141,13 +212,20 @@
       "language": "ko",
       "description_ko": "중국의 숨겨진 오지를 탐험하는 특별한 여행기",
       "description_en": "A special travel journal exploring the hidden remote areas of China",
-      "status": "published",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-13-01.jpg",
       "preview_available": false,
-      "tags": ["중국", "오지여행", "동아시아"]
+      "tags": [
+        "중국",
+        "오지여행",
+        "동아시아"
+      ]
     },
     {
       "id": "travel-14-01",
@@ -160,13 +238,21 @@
       "language": "ko",
       "description_ko": "만 개의 섬나라 인도네시아의 다채로운 문화와 자연을 담은 여행기",
       "description_en": "A travel journal capturing the colorful culture and nature of Indonesia, the country of ten thousand islands",
-      "status": "in_progress",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-14-01.jpg",
       "preview_available": false,
-      "tags": ["인도네시아", "동남아", "발리", "자카르타"]
+      "tags": [
+        "인도네시아",
+        "동남아",
+        "발리",
+        "자카르타"
+      ]
     },
     {
       "id": "travel-21-01",
@@ -179,13 +265,22 @@
       "language": "ko",
       "description_ko": "에스토니아, 라트비아, 리투아니아 - 발트해 연안 3개국 여행기",
       "description_en": "Travel journal of Estonia, Latvia, and Lithuania - three Baltic Sea countries",
-      "status": "published",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-21-01.jpg",
       "preview_available": false,
-      "tags": ["발틱", "유럽", "에스토니아", "라트비아", "리투아니아"]
+      "tags": [
+        "발틱",
+        "유럽",
+        "에스토니아",
+        "라트비아",
+        "리투아니아"
+      ]
     },
     {
       "id": "travel-31-01",
@@ -198,13 +293,21 @@
       "language": "ko",
       "description_ko": "변화하는 사우디아라비아의 새로운 모습을 담은 여행기",
       "description_en": "A travel journal capturing the new face of changing Saudi Arabia",
-      "status": "in_progress",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-31-01.jpg",
       "preview_available": false,
-      "tags": ["사우디", "중동", "리야드", "제다"]
+      "tags": [
+        "사우디",
+        "중동",
+        "리야드",
+        "제다"
+      ]
     },
     {
       "id": "travel-42-01",
@@ -217,13 +320,21 @@
       "language": "ko",
       "description_ko": "모로코, 튀니지, 이집트 등 북아프리카의 반전 매력을 발견하는 여행기",
       "description_en": "A travel journal discovering the unexpected charm of North Africa including Morocco, Tunisia, and Egypt",
-      "status": "published",
-      "format": ["epub", "pdf"],
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/travel-42-01.jpg",
       "preview_available": false,
-      "tags": ["북아프리카", "모로코", "튀니지", "이집트"]
+      "tags": [
+        "북아프리카",
+        "모로코",
+        "튀니지",
+        "이집트"
+      ]
     },
     {
       "id": "kdrama-01",
@@ -237,14 +348,21 @@
       "language": "en",
       "description_ko": "K-드라마 로맨스 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama romantic dialogues - 4-level complete edition with 160 dialogue practice opportunities",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-01.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "romance", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "romance",
+        "language learning"
+      ],
       "series_number": 1
     },
     {
@@ -259,14 +377,22 @@
       "language": "en",
       "description_ko": "K-드라마 직장 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama workplace dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-02.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "office", "workplace", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "office",
+        "workplace",
+        "language learning"
+      ],
       "series_number": 2
     },
     {
@@ -281,14 +407,22 @@
       "language": "en",
       "description_ko": "K-드라마 스릴러 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama thriller dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-03.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "thriller", "suspense", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "thriller",
+        "suspense",
+        "language learning"
+      ],
       "series_number": 3
     },
     {
@@ -303,14 +437,21 @@
       "language": "en",
       "description_ko": "K-드라마 가족 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama family dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-04.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "family", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "family",
+        "language learning"
+      ],
       "series_number": 4
     },
     {
@@ -325,14 +466,22 @@
       "language": "en",
       "description_ko": "K-드라마 의학 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama medical dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-05.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "medical", "hospital", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "medical",
+        "hospital",
+        "language learning"
+      ],
       "series_number": 5
     },
     {
@@ -347,14 +496,22 @@
       "language": "en",
       "description_ko": "K-드라마 법정 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama legal dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-06.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "legal", "lawyer", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "legal",
+        "lawyer",
+        "language learning"
+      ],
       "series_number": 6
     },
     {
@@ -369,14 +526,22 @@
       "language": "en",
       "description_ko": "K-드라마 사극 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama historical dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-07.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "historical", "sageuk", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "historical",
+        "sageuk",
+        "language learning"
+      ],
       "series_number": 7
     },
     {
@@ -391,14 +556,22 @@
       "language": "en",
       "description_ko": "K-드라마 코미디 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama comedy dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-08.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "comedy", "humor", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "comedy",
+        "humor",
+        "language learning"
+      ],
       "series_number": 8
     },
     {
@@ -413,14 +586,22 @@
       "language": "en",
       "description_ko": "K-드라마 판타지 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama fantasy dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-09.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "fantasy", "supernatural", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "fantasy",
+        "supernatural",
+        "language learning"
+      ],
       "series_number": 9
     },
     {
@@ -435,14 +616,22 @@
       "language": "en",
       "description_ko": "K-드라마 학교 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama school dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/kdrama-10.jpg",
       "preview_available": true,
-      "tags": ["korean", "kdrama", "school", "student", "language learning"],
+      "tags": [
+        "korean",
+        "kdrama",
+        "school",
+        "student",
+        "language learning"
+      ],
       "series_number": 10
     },
     {
@@ -457,14 +646,22 @@
       "language": "en",
       "description_ko": "한국 음식 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life food culture dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-01.jpg",
       "preview_available": true,
-      "tags": ["korean", "food", "cuisine", "culture", "language learning"],
+      "tags": [
+        "korean",
+        "food",
+        "cuisine",
+        "culture",
+        "language learning"
+      ],
       "series_number": 1
     },
     {
@@ -479,14 +676,22 @@
       "language": "en",
       "description_ko": "한국 음주 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life drinking culture dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-02.jpg",
       "preview_available": true,
-      "tags": ["korean", "drinking", "soju", "culture", "language learning"],
+      "tags": [
+        "korean",
+        "drinking",
+        "soju",
+        "culture",
+        "language learning"
+      ],
       "series_number": 2
     },
     {
@@ -501,14 +706,22 @@
       "language": "en",
       "description_ko": "한국 명절 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life holiday dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-03.jpg",
       "preview_available": true,
-      "tags": ["korean", "holidays", "chuseok", "seollal", "language learning"],
+      "tags": [
+        "korean",
+        "holidays",
+        "chuseok",
+        "seollal",
+        "language learning"
+      ],
       "series_number": 3
     },
     {
@@ -523,14 +736,22 @@
       "language": "en",
       "description_ko": "한국 결혼 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life wedding dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-04.jpg",
       "preview_available": true,
-      "tags": ["korean", "wedding", "marriage", "culture", "language learning"],
+      "tags": [
+        "korean",
+        "wedding",
+        "marriage",
+        "culture",
+        "language learning"
+      ],
       "series_number": 4
     },
     {
@@ -545,14 +766,22 @@
       "language": "en",
       "description_ko": "한국 장례 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life funeral dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-05.jpg",
       "preview_available": true,
-      "tags": ["korean", "funeral", "condolences", "culture", "language learning"],
+      "tags": [
+        "korean",
+        "funeral",
+        "condolences",
+        "culture",
+        "language learning"
+      ],
       "series_number": 5
     },
     {
@@ -567,14 +796,22 @@
       "language": "en",
       "description_ko": "한국 군대 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life military dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-06.jpg",
       "preview_available": true,
-      "tags": ["korean", "military", "army", "culture", "language learning"],
+      "tags": [
+        "korean",
+        "military",
+        "army",
+        "culture",
+        "language learning"
+      ],
       "series_number": 6
     },
     {
@@ -589,14 +826,22 @@
       "language": "en",
       "description_ko": "한국 뷰티 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life beauty dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-07.jpg",
       "preview_available": true,
-      "tags": ["korean", "beauty", "skincare", "kbeauty", "language learning"],
+      "tags": [
+        "korean",
+        "beauty",
+        "skincare",
+        "kbeauty",
+        "language learning"
+      ],
       "series_number": 7
     },
     {
@@ -611,14 +856,22 @@
       "language": "en",
       "description_ko": "한국 패션 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life fashion dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-08.jpg",
       "preview_available": true,
-      "tags": ["korean", "fashion", "style", "kfashion", "language learning"],
+      "tags": [
+        "korean",
+        "fashion",
+        "style",
+        "kfashion",
+        "language learning"
+      ],
       "series_number": 8
     },
     {
@@ -633,14 +886,22 @@
       "language": "en",
       "description_ko": "한국 아파트 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life apartment dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-09.jpg",
       "preview_available": true,
-      "tags": ["korean", "apartment", "housing", "culture", "language learning"],
+      "tags": [
+        "korean",
+        "apartment",
+        "housing",
+        "culture",
+        "language learning"
+      ],
       "series_number": 9
     },
     {
@@ -655,14 +916,22 @@
       "language": "en",
       "description_ko": "한국 학원 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life hagwon dialogues - 4-level complete edition",
-      "status": "published",
-      "format": ["epub"],
+      "status": "ready",
+      "format": [
+        "epub"
+      ],
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
       "cover": "images/klife-10.jpg",
       "preview_available": true,
-      "tags": ["korean", "hagwon", "education", "academy", "language learning"],
+      "tags": [
+        "korean",
+        "hagwon",
+        "education",
+        "academy",
+        "language learning"
+      ],
       "series_number": 10
     },
     {
@@ -676,14 +945,23 @@
       "language": "ko",
       "description_ko": "EnergyPlus 기반 아파트 건물의 에너지 시뮬레이션 실무 가이드. 150개 IDF 모델 포함",
       "description_en": "Practical guide for apartment building energy simulation with EnergyPlus. Includes 150 IDF models",
-      "status": "in_progress",
-      "format": ["epub", "pdf"],
-      "price": 30.00,
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": 30.0,
       "currency": "USD",
       "isbn": null,
       "cover": "images/energy-s1-01.png",
       "preview_available": false,
-      "tags": ["EnergyPlus", "에너지", "아파트", "시뮬레이션", "건축"],
+      "tags": [
+        "EnergyPlus",
+        "에너지",
+        "아파트",
+        "시뮬레이션",
+        "건축"
+      ],
       "series_number": 1
     },
     {
@@ -697,14 +975,23 @@
       "language": "ko",
       "description_ko": "EnergyPlus 기반 사무소 건물의 에너지 시뮬레이션 실무 가이드. 150개 IDF 모델 포함",
       "description_en": "Practical guide for office building energy simulation with EnergyPlus. Includes 150 IDF models",
-      "status": "in_progress",
-      "format": ["epub", "pdf"],
-      "price": 30.00,
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": 30.0,
       "currency": "USD",
       "isbn": null,
       "cover": "images/energy-s1-02.png",
       "preview_available": false,
-      "tags": ["EnergyPlus", "에너지", "사무소", "시뮬레이션", "건축"],
+      "tags": [
+        "EnergyPlus",
+        "에너지",
+        "사무소",
+        "시뮬레이션",
+        "건축"
+      ],
       "series_number": 2
     },
     {
@@ -718,14 +1005,23 @@
       "language": "ko",
       "description_ko": "20,000개 LHS 시뮬레이션 데이터 기반 Llama-3 파인튜닝 실습서",
       "description_en": "Hands-on guide for Llama-3 fine-tuning based on 20,000 LHS simulation datasets",
-      "status": "in_progress",
-      "format": ["epub", "pdf"],
-      "price": 35.00,
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": 35.0,
       "currency": "USD",
       "isbn": null,
       "cover": "images/energy-s2-01.png",
       "preview_available": false,
-      "tags": ["AI", "LLM", "에너지", "머신러닝", "건축"],
+      "tags": [
+        "AI",
+        "LLM",
+        "에너지",
+        "머신러닝",
+        "건축"
+      ],
       "series_number": 1
     },
     {
@@ -739,13 +1035,21 @@
       "language": "ko",
       "description_ko": "IoT, AI, 자동화 기술을 활용한 스마트빌딩의 설계와 구현",
       "description_en": "Design and implementation of smart buildings using IoT, AI, and automation technologies",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-01.png",
       "preview_available": false,
-      "tags": ["스마트빌딩", "IoT", "자동화", "건축"]
+      "tags": [
+        "스마트빌딩",
+        "IoT",
+        "자동화",
+        "건축"
+      ]
     },
     {
       "id": "tech-02",
@@ -758,13 +1062,21 @@
       "language": "ko",
       "description_ko": "탄소중립 정책과 기술, 건물 부문 탄소중립 전략",
       "description_en": "Carbon neutrality policies, technologies, and building sector carbon neutral strategies",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-02.png",
       "preview_available": false,
-      "tags": ["탄소중립", "기후변화", "에너지", "정책"]
+      "tags": [
+        "탄소중립",
+        "기후변화",
+        "에너지",
+        "정책"
+      ]
     },
     {
       "id": "tech-03",
@@ -777,13 +1089,20 @@
       "language": "ko",
       "description_ko": "React 기반 디지털트윈 시스템 구축 실습서",
       "description_en": "Hands-on guide for building digital twin systems with React",
-      "status": "published",
-      "format": ["html"],
+      "status": "ready",
+      "format": [
+        "html"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-03.png",
       "preview_available": false,
-      "tags": ["디지털트윈", "React", "IoT", "시뮬레이션"]
+      "tags": [
+        "디지털트윈",
+        "React",
+        "IoT",
+        "시뮬레이션"
+      ]
     },
     {
       "id": "tech-04",
@@ -796,13 +1115,22 @@
       "language": "ko",
       "description_ko": "BACnet, Modbus, MQTT 등 빌딩자동화 통신 프로토콜 해설",
       "description_en": "Guide to building automation communication protocols including BACnet, Modbus, MQTT",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-04.png",
       "preview_available": false,
-      "tags": ["BACnet", "Modbus", "MQTT", "통신", "빌딩자동화"]
+      "tags": [
+        "BACnet",
+        "Modbus",
+        "MQTT",
+        "통신",
+        "빌딩자동화"
+      ]
     },
     {
       "id": "tech-05",
@@ -815,13 +1143,21 @@
       "language": "ko",
       "description_ko": "건물 자동제어 시스템의 이론과 실무",
       "description_en": "Theory and practice of building automatic control systems",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-05.png",
       "preview_available": false,
-      "tags": ["자동제어", "PID", "HVAC", "빌딩자동화"]
+      "tags": [
+        "자동제어",
+        "PID",
+        "HVAC",
+        "빌딩자동화"
+      ]
     },
     {
       "id": "tech-06",
@@ -834,13 +1170,21 @@
       "language": "ko",
       "description_ko": "머신러닝 기반 건물 에너지 사용량 예측 기법",
       "description_en": "Machine learning-based building energy consumption prediction techniques",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-06.png",
       "preview_available": false,
-      "tags": ["에너지예측", "머신러닝", "건물에너지", "데이터분석"]
+      "tags": [
+        "에너지예측",
+        "머신러닝",
+        "건물에너지",
+        "데이터분석"
+      ]
     },
     {
       "id": "tech-07",
@@ -853,13 +1197,21 @@
       "language": "ko",
       "description_ko": "건물 에너지 시스템의 이상 탐지 및 고장 진단(FDD)",
       "description_en": "Anomaly detection and fault detection & diagnostics (FDD) for building energy systems",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-07.png",
       "preview_available": false,
-      "tags": ["이상탐지", "FDD", "건물에너지", "AI"]
+      "tags": [
+        "이상탐지",
+        "FDD",
+        "건물에너지",
+        "AI"
+      ]
     },
     {
       "id": "tech-08",
@@ -872,13 +1224,21 @@
       "language": "ko",
       "description_ko": "기후변화가 건물 에너지 소비에 미치는 영향과 대응 전략",
       "description_en": "Impact of climate change on building energy consumption and response strategies",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-08.png",
       "preview_available": false,
-      "tags": ["기후변화", "에너지", "탄소", "정책"]
+      "tags": [
+        "기후변화",
+        "에너지",
+        "탄소",
+        "정책"
+      ]
     },
     {
       "id": "tech-09",
@@ -891,13 +1251,21 @@
       "language": "ko",
       "description_ko": "AI를 활용한 콘텐츠 창작의 실전 가이드",
       "description_en": "Practical guide to content creation using AI",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-09.png",
       "preview_available": false,
-      "tags": ["AI", "창작", "LLM", "콘텐츠"]
+      "tags": [
+        "AI",
+        "창작",
+        "LLM",
+        "콘텐츠"
+      ]
     },
     {
       "id": "tech-10",
@@ -910,13 +1278,22 @@
       "language": "ko",
       "description_ko": "EU 탄소국경조정메커니즘(CBAM)의 이해와 대응",
       "description_en": "Understanding and responding to the EU Carbon Border Adjustment Mechanism (CBAM)",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-10.png",
       "preview_available": false,
-      "tags": ["CBAM", "탄소국경세", "EU", "무역", "탄소"]
+      "tags": [
+        "CBAM",
+        "탄소국경세",
+        "EU",
+        "무역",
+        "탄소"
+      ]
     },
     {
       "id": "tech-11",
@@ -929,13 +1306,21 @@
       "language": "ko",
       "description_ko": "스마트시티 구축을 위한 제안서 및 기술 로드맵",
       "description_en": "Proposal and technology roadmap for smart city development",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-11.png",
       "preview_available": false,
-      "tags": ["스마트시티", "IoT", "도시계획", "기술"]
+      "tags": [
+        "스마트시티",
+        "IoT",
+        "도시계획",
+        "기술"
+      ]
     },
     {
       "id": "tech-12",
@@ -948,13 +1333,21 @@
       "language": "ko",
       "description_ko": "건물 에너지 관리를 위한 가상센서 기술 해설",
       "description_en": "Virtual sensor technology for building energy management",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-12.png",
       "preview_available": false,
-      "tags": ["가상센서", "IoT", "BEMS", "데이터"]
+      "tags": [
+        "가상센서",
+        "IoT",
+        "BEMS",
+        "데이터"
+      ]
     },
     {
       "id": "tech-13",
@@ -967,13 +1360,21 @@
       "language": "ko",
       "description_ko": "대학 강의용 에너지 시스템 개론 교재",
       "description_en": "University textbook for introduction to energy systems",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-13.png",
       "preview_available": false,
-      "tags": ["에너지시스템", "교재", "대학", "강의"]
+      "tags": [
+        "에너지시스템",
+        "교재",
+        "대학",
+        "강의"
+      ]
     },
     {
       "id": "tech-14",
@@ -986,13 +1387,21 @@
       "language": "ko",
       "description_ko": "건물에너지 및 데이터 분석을 위한 파이썬 프로그래밍",
       "description_en": "Python programming for building energy and data analysis",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-14.png",
       "preview_available": false,
-      "tags": ["파이썬", "Python", "프로그래밍", "데이터분석"]
+      "tags": [
+        "파이썬",
+        "Python",
+        "프로그래밍",
+        "데이터분석"
+      ]
     },
     {
       "id": "tech-15",
@@ -1005,13 +1414,20 @@
       "language": "ko",
       "description_ko": "아두이노와 React를 결합한 IoT 시스템 구축",
       "description_en": "Building IoT systems combining Arduino with React",
-      "status": "published",
-      "format": ["html"],
+      "status": "ready",
+      "format": [
+        "html"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-15.png",
       "preview_available": false,
-      "tags": ["아두이노", "Arduino", "React", "IoT"]
+      "tags": [
+        "아두이노",
+        "Arduino",
+        "React",
+        "IoT"
+      ]
     },
     {
       "id": "tech-16",
@@ -1024,13 +1440,20 @@
       "language": "ko",
       "description_ko": "건물에너지 분야 오픈소스 소프트웨어 활용 가이드",
       "description_en": "Guide to open source software for building energy applications",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": "images/tech-16.png",
       "preview_available": false,
-      "tags": ["오픈소스", "소프트웨어", "건물에너지"]
+      "tags": [
+        "오픈소스",
+        "소프트웨어",
+        "건물에너지"
+      ]
     },
     {
       "id": "tech-17",
@@ -1043,13 +1466,21 @@
       "language": "ko",
       "description_ko": "에너지 시스템 성능 시험 및 검증 방법론",
       "description_en": "Performance testing and verification methodology for energy systems",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["시험", "검증", "에너지시스템", "성능"]
+      "tags": [
+        "시험",
+        "검증",
+        "에너지시스템",
+        "성능"
+      ]
     },
     {
       "id": "tech-18",
@@ -1062,13 +1493,21 @@
       "language": "ko",
       "description_ko": "에너지 예측 연구 과제 보고서 및 분석",
       "description_en": "Energy prediction research project reports and analysis",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["에너지예측", "연구", "과제", "데이터"]
+      "tags": [
+        "에너지예측",
+        "연구",
+        "과제",
+        "데이터"
+      ]
     },
     {
       "id": "tech-19",
@@ -1081,13 +1520,21 @@
       "language": "ko",
       "description_ko": "대규모 언어모델(LLM)의 산업 활용 사례와 실습",
       "description_en": "Industrial applications and hands-on practice with Large Language Models",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["LLM", "AI", "GPT", "활용"]
+      "tags": [
+        "LLM",
+        "AI",
+        "GPT",
+        "활용"
+      ]
     },
     {
       "id": "tech-21",
@@ -1100,13 +1547,20 @@
       "language": "ko",
       "description_ko": "건축 재료의 자연노화 현상과 수명 예측",
       "description_en": "Natural aging phenomena and lifespan prediction of building materials",
-      "status": "published",
-      "format": ["html"],
+      "status": "ready",
+      "format": [
+        "html"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["자연노화", "건축재료", "수명", "내구성"]
+      "tags": [
+        "자연노화",
+        "건축재료",
+        "수명",
+        "내구성"
+      ]
     },
     {
       "id": "tech-22",
@@ -1119,13 +1573,21 @@
       "language": "ko",
       "description_ko": "글로벌 경제에서 달러 패권의 변화와 미래 전망",
       "description_en": "Changes in dollar hegemony in the global economy and future outlook",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["경제", "달러", "패권", "국제금융"]
+      "tags": [
+        "경제",
+        "달러",
+        "패권",
+        "국제금융"
+      ]
     },
     {
       "id": "tech-31",
@@ -1138,13 +1600,20 @@
       "language": "ko",
       "description_ko": "중고차 구매를 위한 실전 가이드",
       "description_en": "Practical guide for buying used cars",
-      "status": "published",
-      "format": ["html"],
+      "status": "ready",
+      "format": [
+        "html"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["중고차", "자동차", "구매가이드", "생활"]
+      "tags": [
+        "중고차",
+        "자동차",
+        "구매가이드",
+        "생활"
+      ]
     },
     {
       "id": "tech-41",
@@ -1157,13 +1626,21 @@
       "language": "ko",
       "description_ko": "탄소중립 시대의 에너지 전환과 산업 변화",
       "description_en": "Energy transition and industrial transformation in the carbon neutral era",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["탄소중립", "에너지전환", "산업", "정책"]
+      "tags": [
+        "탄소중립",
+        "에너지전환",
+        "산업",
+        "정책"
+      ]
     },
     {
       "id": "tech-42",
@@ -1176,13 +1653,21 @@
       "language": "ko",
       "description_ko": "탄소중립 도시 설계와 구현을 위한 종합 가이드",
       "description_en": "Comprehensive guide for carbon neutral city design and implementation",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["탄소중립", "도시", "스마트시티", "설계"]
+      "tags": [
+        "탄소중립",
+        "도시",
+        "스마트시티",
+        "설계"
+      ]
     },
     {
       "id": "tech-43",
@@ -1195,13 +1680,21 @@
       "language": "ko",
       "description_ko": "건물 에너지 최적화 기법과 사례 연구",
       "description_en": "Building energy optimization techniques and case studies",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["에너지최적화", "건물", "시뮬레이션", "설계"]
+      "tags": [
+        "에너지최적화",
+        "건물",
+        "시뮬레이션",
+        "설계"
+      ]
     },
     {
       "id": "tech-51",
@@ -1214,13 +1707,21 @@
       "language": "ko",
       "description_ko": "AI 시대의 출판 비즈니스 전략과 실무",
       "description_en": "Publishing business strategies and practices in the AI era",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["출판", "비즈니스", "전략", "AI"]
+      "tags": [
+        "출판",
+        "비즈니스",
+        "전략",
+        "AI"
+      ]
     },
     {
       "id": "tech-61",
@@ -1233,13 +1734,21 @@
       "language": "ko",
       "description_ko": "대학 공학 교재 - 전기회로의 기초와 응용",
       "description_en": "University engineering textbook - fundamentals and applications of electric circuits",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["전기회로", "공학", "교재", "대학"]
+      "tags": [
+        "전기회로",
+        "공학",
+        "교재",
+        "대학"
+      ]
     },
     {
       "id": "tech-62",
@@ -1252,13 +1761,21 @@
       "language": "ko",
       "description_ko": "건물 기밀성능 측정 방법과 기준 해설",
       "description_en": "Building airtightness performance measurement methods and standards",
-      "status": "published",
-      "format": ["html", "pdf"],
+      "status": "ready",
+      "format": [
+        "html",
+        "pdf"
+      ],
       "price": null,
       "isbn": null,
       "cover": null,
       "preview_available": false,
-      "tags": ["기밀측정", "건축", "성능", "에너지"]
+      "tags": [
+        "기밀측정",
+        "건축",
+        "성능",
+        "에너지"
+      ]
     }
   ]
 }

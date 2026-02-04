@@ -228,6 +228,7 @@ function getFilteredBooks() {
 function getStatusBadge(status) {
   const map = {
     'published': `<span class="badge badge--published">${currentLang === 'ko' ? '출간' : 'Published'}</span>`,
+    'ready': `<span class="badge badge--ready">${currentLang === 'ko' ? '출간대기' : 'Ready'}</span>`,
     'in_progress': `<span class="badge badge--progress">${currentLang === 'ko' ? '집필중' : 'In Progress'}</span>`,
     'planned': `<span class="badge badge--planned">${currentLang === 'ko' ? '기획중' : 'Planned'}</span>`
   };
@@ -326,7 +327,7 @@ function renderCategoryStats() {
 function renderLatestBooks() {
   const grid = document.getElementById('latestBooks');
   if (!grid || !booksData) return;
-  const latest = booksData.books.filter(b => b.status === 'published').slice(0, 8);
+  const latest = booksData.books.filter(b => b.status === 'published' || b.status === 'ready').slice(0, 8);
   grid.innerHTML = latest.map(renderBookCard).join('');
 }
 
@@ -438,7 +439,7 @@ function openBookDetail(bookId) {
           ${book.preview_available ? `<button class="btn btn--primary" onclick="showPreview('${book.id}')">
             \u{1F4D6} ${t('preview')}
           </button>` : ''}
-          ${book.status === 'published' ? `<button class="btn btn--accent">
+          ${(book.status === 'published' || book.status === 'ready') ? `<button class="btn btn--accent">
             \u{1F6D2} ${t('buyNow')}
           </button>` : ''}
         </div>
@@ -518,7 +519,7 @@ function updateHeroStats() {
 
   if (totalEl) totalEl.textContent = booksData.books.length + '+';
   if (publishedEl) {
-    publishedEl.textContent = booksData.books.filter(b => b.status === 'published').length;
+    publishedEl.textContent = booksData.books.filter(b => b.status === 'published' || b.status === 'ready').length;
   }
   if (seriesEl) {
     const series = new Set(booksData.books.map(b => b.series).filter(Boolean));
