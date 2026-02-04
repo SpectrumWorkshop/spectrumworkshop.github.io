@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog | Spectrum Workshop</title>
+  <meta name="description" content="스펙트럼 공작소 도서 카탈로그 - 여행, 한국어 학습, 에너지 시뮬레이션, 기술서적">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <div class="header__logo-icon">SW</div>
+        <span>Spectrum Workshop</span>
+      </a>
+      <button class="header__toggle" aria-label="Menu">&#9776;</button>
+      <nav class="header__nav">
+        <a href="index.html" data-i18n="home">Home</a>
+        <a href="catalog.html" class="active" data-i18n="catalog">도서목록</a>
+        <a href="writers.html" data-i18n="writers">작가모집</a>
+        <a href="about.html" data-i18n="about">소개</a>
+        <a href="contact.html" data-i18n="contact">연락처</a>
+        <button class="header__lang" onclick="toggleLang()">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> / <span>Catalog</span>
+      </div>
+      <h1 id="catalogPageTitle">Book Catalog</h1>
+      <p id="catalogPageDesc">스펙트럼 공작소의 모든 도서를 만나보세요</p>
+    </div>
+  </div>
+
+  <!-- Catalog Content -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <div class="filter-bar__tabs">
+          <button class="filter-tab active" data-category="all">All</button>
+          <button class="filter-tab" data-category="travel">&#x1F30F; Travel</button>
+          <button class="filter-tab" data-category="korean">&#x1F1F0;&#x1F1F7; Korean</button>
+          <button class="filter-tab" data-category="energy">&#x26A1; Energy</button>
+          <button class="filter-tab" data-category="fiction">&#x1F4D6; Fiction</button>
+          <button class="filter-tab" data-category="tech">&#x1F4BB; Tech</button>
+        </div>
+        <div class="filter-bar__search">
+          <span>&#x1F50D;</span>
+          <input type="text" id="bookSearch" placeholder="Search books...">
+        </div>
+      </div>
+
+      <!-- Book Grid -->
+      <div class="book-grid" id="bookGrid"></div>
+
+    </div>
+  </section>
+
+  <!-- Book Detail Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modalContent"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <h3>Spectrum Workshop</h3>
+        <p>스펙트럼 공작소<br>bizpurple@naver.com</p>
+      </div>
+      <div class="footer__col">
+        <h4>Categories</h4>
+        <a href="catalog.html?category=travel">Travel</a>
+        <a href="catalog.html?category=korean">Korean Language</a>
+        <a href="catalog.html?category=energy">Energy Simulation</a>
+        <a href="catalog.html?category=tech">Technology</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="writers.html">Writers</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__col">
+        <h4>Purchase</h4>
+        <a href="#">Amazon</a>
+        <a href="#">Google Play Books</a>
+        <a href="#">교보문고</a>
+        <a href="#">YES24</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      &copy; 2026 Spectrum Workshop. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Apply category filter from URL parameter
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const cat = params.get('category');
+      if (cat) {
+        currentFilter = cat;
+        document.querySelectorAll('.filter-tab').forEach(t => {
+          t.classList.toggle('active', (t.dataset.category || 'all') === cat);
+        });
+        // Remove 'all' active if specific category
+        if (cat !== 'all') {
+          document.querySelector('.filter-tab[data-category="all"]')?.classList.remove('active');
+        }
+        renderBookGrid();
+      }
+    });
+  </script>
+</body>
+</html>

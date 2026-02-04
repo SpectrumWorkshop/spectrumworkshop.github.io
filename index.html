@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spectrum Workshop | 스펙트럼 공작소</title>
+  <meta name="description" content="AI 기술과 전문 지식의 융합으로 새로운 지식의 스펙트럼을 만들어가는 출판사 - 여행, 한국어 학습, 에너지 시뮬레이션, 기술서적">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <div class="header__logo-icon">SW</div>
+        <span>Spectrum Workshop</span>
+      </a>
+      <button class="header__toggle" aria-label="Menu">&#9776;</button>
+      <nav class="header__nav">
+        <a href="index.html" class="active" data-i18n="home">Home</a>
+        <a href="catalog.html" data-i18n="catalog">도서목록</a>
+        <a href="writers.html" data-i18n="writers">작가모집</a>
+        <a href="about.html" data-i18n="about">소개</a>
+        <a href="contact.html" data-i18n="contact">연락처</a>
+        <button class="header__lang" onclick="toggleLang()">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__content">
+      <h1 id="heroTitle">지식의 모든 빛깔을 담다<br><span>Spectrum Workshop</span></h1>
+      <p class="hero__subtitle" id="heroSubtitle">
+        AI 기술과 전문 지식의 융합으로 여행, 언어, 기술, 에너지 분야의 새로운 스펙트럼을 만들어가는 출판사입니다.
+      </p>
+      <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+        <a href="catalog.html" class="btn btn--primary" style="padding:14px 32px; font-size:1rem;" id="heroCatalogBtn">도서 카탈로그</a>
+        <a href="writers.html" class="btn btn--outline" style="padding:14px 32px; font-size:1rem; border-color:rgba(255,255,255,0.3); color:white;" id="heroWritersBtn">작가 모집</a>
+      </div>
+      <div class="hero__stats">
+        <div>
+          <div class="hero__stat-number" id="statTotal">35+</div>
+          <div class="hero__stat-label" data-stat-label="statTotalLabel">Total Titles</div>
+        </div>
+        <div>
+          <div class="hero__stat-number" id="statPublished">28</div>
+          <div class="hero__stat-label" data-stat-label="statPubLabel">Published</div>
+        </div>
+        <div>
+          <div class="hero__stat-number" id="statSeries">7</div>
+          <div class="hero__stat-label" data-stat-label="statSeriesLabel">Series</div>
+        </div>
+        <div>
+          <div class="hero__stat-number">5</div>
+          <div class="hero__stat-label" data-stat-label="statLangLabel">Languages</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title" data-i18n-title="browseCategory">분야별 도서</h2>
+      <p class="section__desc" data-i18n-desc="browseCategoryDesc">다양한 분야의 전문 도서를 만나보세요</p>
+      <div class="categories" id="categoryStats"></div>
+    </div>
+  </section>
+
+  <!-- Latest Books -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section__title" data-i18n-title="latestTitle">최근 출간</h2>
+      <p class="section__desc" data-i18n-desc="latestDesc">최근 출간된 도서를 확인하세요</p>
+      <div class="book-grid" id="latestBooks"></div>
+      <div style="text-align:center; margin-top:32px;">
+        <a href="catalog.html" class="btn btn--outline" data-i18n="viewAll">전체 도서 보기 &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Series Highlights -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title" data-i18n-title="featuredTitle">주요 시리즈</h2>
+      <p class="section__desc" data-i18n-desc="featuredDesc">체계적으로 구성된 시리즈를 만나보세요</p>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:20px;">
+        <div class="series-banner" style="cursor:pointer;" onclick="location.href='catalog.html?category=travel'">
+          <div class="series-banner__icon">&#x1F30F;</div>
+          <div class="series-banner__info">
+            <h3>100+개국 여행자의 서재</h3>
+            <p>110개국 이상을 여행한 저자의 생생한 여행 가이드 시리즈</p>
+          </div>
+          <div class="series-banner__count">11 titles</div>
+        </div>
+        <div class="series-banner" style="cursor:pointer;" onclick="location.href='catalog.html?category=korean'">
+          <div class="series-banner__icon">&#x1F1F0;&#x1F1F7;</div>
+          <div class="series-banner__info">
+            <h3>K-Drama & K-Life Korean</h3>
+            <p>K-드라마와 한국 생활 속 대화로 배우는 한국어 시리즈</p>
+          </div>
+          <div class="series-banner__count">20 titles</div>
+        </div>
+        <div class="series-banner" style="cursor:pointer;" onclick="location.href='catalog.html?category=energy'">
+          <div class="series-banner__icon">&#x26A1;</div>
+          <div class="series-banner__info">
+            <h3>Building Energy Simulation</h3>
+            <p>EnergyPlus 기반 건물에너지 시뮬레이션 및 AI/LLM 시리즈</p>
+          </div>
+          <div class="series-banner__count">17 titles</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Writers CTA -->
+  <section class="writers-section">
+    <div class="container">
+      <h2 class="section__title" data-i18n-title="joinTitle">함께할 작가를 찾습니다</h2>
+      <p class="section__desc" data-i18n-desc="joinDesc">AI 시대의 새로운 출판을 함께 만들어갈 작가를 모집합니다</p>
+      <div class="writers-grid">
+        <div class="writer-card">
+          <div class="writer-card__icon">&#x270D;&#xFE0F;</div>
+          <div class="writer-card__title" data-i18n="joinExpert">전문 분야 저자</div>
+          <div class="writer-card__desc" data-i18n="joinExpertDesc">기술, 과학, 교육 등 전문 분야의 지식을 책으로 만들고 싶은 전문가를 찾습니다</div>
+        </div>
+        <div class="writer-card">
+          <div class="writer-card__icon">&#x1F4DD;</div>
+          <div class="writer-card__title" data-i18n="joinTravel">여행 작가</div>
+          <div class="writer-card__desc" data-i18n="joinTravelDesc">세계 각지의 생생한 여행 경험을 공유할 여행 작가를 모집합니다</div>
+        </div>
+        <div class="writer-card">
+          <div class="writer-card__icon">&#x1F916;</div>
+          <div class="writer-card__title" data-i18n="joinAI">AI 콘텐츠 크리에이터</div>
+          <div class="writer-card__desc" data-i18n="joinAIDesc">AI 도구를 활용하여 혁신적인 교육 콘텐츠를 제작할 크리에이터를 환영합니다</div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:32px;">
+        <a href="writers.html" class="btn btn--primary" style="padding:14px 32px;" data-i18n="joinBtn">작가 지원하기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Book Detail Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modalContent"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <h3>Spectrum Workshop</h3>
+        <p>스펙트럼 공작소<br>bizpurple@naver.com</p>
+      </div>
+      <div class="footer__col">
+        <h4>Categories</h4>
+        <a href="catalog.html?category=travel">Travel</a>
+        <a href="catalog.html?category=korean">Korean Language</a>
+        <a href="catalog.html?category=energy">Energy Simulation</a>
+        <a href="catalog.html?category=tech">Technology</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="writers.html">Writers</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__col">
+        <h4>Purchase</h4>
+        <a href="#">Amazon</a>
+        <a href="#">Google Play Books</a>
+        <a href="#">교보문고</a>
+        <a href="#">YES24</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      &copy; 2026 Spectrum Workshop. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

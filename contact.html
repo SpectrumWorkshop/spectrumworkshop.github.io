@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Spectrum Workshop</title>
+  <meta name="description" content="스펙트럼 공작소 연락처 - 출판 문의, 작가 지원, 제휴 제안">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <div class="header__logo-icon">SW</div>
+        <span>Spectrum Workshop</span>
+      </a>
+      <button class="header__toggle" aria-label="Menu">&#9776;</button>
+      <nav class="header__nav">
+        <a href="index.html" data-i18n="home">Home</a>
+        <a href="catalog.html" data-i18n="catalog">도서목록</a>
+        <a href="writers.html" data-i18n="writers">작가모집</a>
+        <a href="about.html" data-i18n="about">소개</a>
+        <a href="contact.html" class="active" data-i18n="contact">연락처</a>
+        <button class="header__lang" onclick="toggleLang()">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> / <span>Contact</span>
+      </div>
+      <h1>Contact Us</h1>
+      <p>출판 문의, 작가 지원, 제휴 제안을 환영합니다</p>
+    </div>
+  </div>
+
+  <!-- Contact Info + Form -->
+  <section class="section">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr 1.5fr; gap:48px; max-width:1000px; margin:0 auto;">
+
+        <!-- Contact Info -->
+        <div>
+          <h2 style="font-size:1.4rem; font-weight:800; margin-bottom:24px;">Get in Touch</h2>
+
+          <div style="margin-bottom:24px;">
+            <h3 style="font-size:1rem; font-weight:700; margin-bottom:8px;">&#x1F4E7; Email</h3>
+            <p style="color:var(--text-light); font-size:0.95rem;">
+              General: bizpurple@naver.com<br>
+              Writers: nowgokim@gmail.com
+            </p>
+          </div>
+
+          <div style="margin-bottom:24px;">
+            <h3 style="font-size:1rem; font-weight:700; margin-bottom:8px;">&#x1F4CD; Address</h3>
+            <p style="color:var(--text-light); font-size:0.95rem;">
+              Seoul, South Korea
+            </p>
+          </div>
+
+          <div style="margin-bottom:24px;">
+            <h3 style="font-size:1rem; font-weight:700; margin-bottom:12px;">&#x1F4AC; Inquiry Types</h3>
+            <div style="display:flex; flex-direction:column; gap:8px;">
+              <div style="padding:12px 16px; background:#f0f2f5; border-radius:8px; font-size:0.9rem;">
+                <strong>&#x270D;&#xFE0F; Writer Application</strong> &mdash; 작가 지원 및 원고 제출
+              </div>
+              <div style="padding:12px 16px; background:#f0f2f5; border-radius:8px; font-size:0.9rem;">
+                <strong>&#x1F4DA; Publishing Inquiry</strong> &mdash; 출판 기획 및 제안
+              </div>
+              <div style="padding:12px 16px; background:#f0f2f5; border-radius:8px; font-size:0.9rem;">
+                <strong>&#x1F6D2; Sales & Distribution</strong> &mdash; 도서 구매 및 유통 문의
+              </div>
+              <div style="padding:12px 16px; background:#f0f2f5; border-radius:8px; font-size:0.9rem;">
+                <strong>&#x1F91D; Partnership</strong> &mdash; 제휴 및 협력 제안
+              </div>
+              <div style="padding:12px 16px; background:#f0f2f5; border-radius:8px; font-size:0.9rem;">
+                <strong>&#x1F4E2; Media</strong> &mdash; 언론 및 미디어 문의
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div>
+          <div class="contact-form">
+            <h2 style="font-size:1.2rem; font-weight:700; margin-bottom:24px;">Send a Message</h2>
+            <form id="contactForm" action="#" method="POST">
+              <div class="form-group">
+                <label for="contactName">Name *</label>
+                <input type="text" id="contactName" name="name" required placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label for="contactEmail">Email *</label>
+                <input type="email" id="contactEmail" name="email" required placeholder="your@email.com">
+              </div>
+              <div class="form-group">
+                <label for="contactType">Inquiry Type *</label>
+                <select id="contactType" name="type" required>
+                  <option value="">Select type...</option>
+                  <option value="writer">Writer Application (작가 지원)</option>
+                  <option value="publishing">Publishing Inquiry (출판 문의)</option>
+                  <option value="sales">Sales & Distribution (구매/유통)</option>
+                  <option value="partnership">Partnership (제휴)</option>
+                  <option value="media">Media Inquiry (언론)</option>
+                  <option value="other">Other (기타)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="contactSubject">Subject *</label>
+                <input type="text" id="contactSubject" name="subject" required placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <label for="contactMessage">Message *</label>
+                <textarea id="contactMessage" name="message" required placeholder="Your message..."></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center; padding:14px;">
+                Send Message
+              </button>
+            </form>
+            <p style="font-size:0.8rem; color:var(--text-light); margin-top:12px; text-align:center;">
+              * Netlify Forms 또는 Formspree 연동 후 실제 메일 발송이 가능합니다
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <h3>Spectrum Workshop</h3>
+        <p>스펙트럼 공작소<br>bizpurple@naver.com</p>
+      </div>
+      <div class="footer__col">
+        <h4>Categories</h4>
+        <a href="catalog.html?category=travel">Travel</a>
+        <a href="catalog.html?category=korean">Korean Language</a>
+        <a href="catalog.html?category=energy">Energy Simulation</a>
+        <a href="catalog.html?category=tech">Technology</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="writers.html">Writers</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__col">
+        <h4>Purchase</h4>
+        <a href="#">Amazon</a>
+        <a href="#">Google Play Books</a>
+        <a href="#">교보문고</a>
+        <a href="#">YES24</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      &copy; 2026 Spectrum Workshop. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
