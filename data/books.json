@@ -1025,6 +1025,35 @@
       "series_number": 1
     },
     {
+      "id": "fiction-01",
+      "category": "fiction",
+      "series": "불완전한 육체들",
+      "series_en": "Imperfect Bodies",
+      "title_ko": "불완전한 육체들",
+      "title_en": "Imperfect Bodies",
+      "author": "김정욱",
+      "language": "ko",
+      "description_ko": "2031년 파리, 바이러스 'Stigma-Vir'가 전 세계를 뒤덮었다. 감염되면 72시간 내에 신체 부위를 절단해야 한다. 여덟 명의 시선으로 펼쳐지는 블랙코미디 SF 소설",
+      "description_en": "Paris, 2031. A virus called 'Stigma-Vir' sweeps the world. The infected must amputate body parts within 72 hours. A black comedy SF novel told through eight perspectives",
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/fiction-01.jpg",
+      "preview_available": true,
+      "tags": [
+        "SF",
+        "블랙코미디",
+        "소설",
+        "파리",
+        "바이러스",
+        "디스토피아"
+      ]
+    },
+    {
       "id": "tech-01",
       "category": "tech",
       "series": "스마트빌딩 시리즈",
