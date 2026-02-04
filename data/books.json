@@ -1029,8 +1029,8 @@
       "category": "fiction",
       "series": "불완전한 육체들",
       "series_en": "Imperfect Bodies",
-      "title_ko": "불완전한 육체들",
-      "title_en": "Imperfect Bodies",
+      "title_ko": "불완전한 육체들 1권",
+      "title_en": "Imperfect Bodies Vol.1",
       "author": "김정욱",
       "language": "ko",
       "description_ko": "2031년 파리, 바이러스 'Stigma-Vir'가 전 세계를 뒤덮었다. 감염되면 72시간 내에 신체 부위를 절단해야 한다. 여덟 명의 시선으로 펼쳐지는 블랙코미디 SF 소설",
@@ -1051,7 +1051,68 @@
         "파리",
         "바이러스",
         "디스토피아"
-      ]
+      ],
+      "series_number": 1
+    },
+    {
+      "id": "fiction-02",
+      "category": "fiction",
+      "series": "불완전한 육체들",
+      "series_en": "Imperfect Bodies",
+      "title_ko": "불완전한 육체들: 저항과 체제",
+      "title_en": "Imperfect Bodies: Resistance and Regime",
+      "author": "김정욱",
+      "language": "ko",
+      "description_ko": "해커가 보철 기업에 맞서고, CEO가 파멸을 계산하며, 철학자가 존재를 묻는다. 광고 차단 앱이 반란이 되고, 오픈소스가 전쟁이 되는 세계. 블랙코미디 SF 소설 제2권",
+      "description_en": "A hacker stands against prosthetic corporations, a CEO calculates destruction, and a philosopher questions existence. A world where an ad-blocker becomes rebellion. Black comedy SF Vol.2",
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/fiction-02.jpg",
+      "preview_available": true,
+      "tags": [
+        "SF",
+        "블랙코미디",
+        "소설",
+        "스핀오프",
+        "저항",
+        "디스토피아"
+      ],
+      "series_number": 2
+    },
+    {
+      "id": "fiction-03",
+      "category": "fiction",
+      "series": "불완전한 육체들",
+      "series_en": "Imperfect Bodies",
+      "title_ko": "불완전한 육체들: 다섯 개의 그림자",
+      "title_en": "Imperfect Bodies: Five Shadows",
+      "author": "김정욱",
+      "language": "ko",
+      "description_ko": "명의가 암시장 중개인이 되고, 피아니스트가 손가락을 잃으며, 과학자가 창조물에 삼켜진다. 2032년 파리, 다섯 개의 추락이 하나의 진실을 향한다. 블랙코미디 SF 소설 제3권",
+      "description_en": "A renowned doctor becomes a black market broker, a pianist loses her fingers, a scientist is consumed by his creation. Five falls converge toward one truth. Black comedy SF Vol.3",
+      "status": "ready",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/fiction-03.jpg",
+      "preview_available": true,
+      "tags": [
+        "SF",
+        "블랙코미디",
+        "소설",
+        "스핀오프",
+        "그림자",
+        "디스토피아"
+      ],
+      "series_number": 3
     },
     {
       "id": "tech-01",
