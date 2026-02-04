@@ -337,7 +337,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-01.png",
+      "cover": "images/kdrama-01.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "romance", "language learning"],
       "series_number": 1
@@ -359,7 +359,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-02.png",
+      "cover": "images/kdrama-02.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "office", "workplace", "language learning"],
       "series_number": 2
@@ -381,7 +381,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-03.png",
+      "cover": "images/kdrama-03.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "thriller", "suspense", "language learning"],
       "series_number": 3
@@ -403,7 +403,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-04.png",
+      "cover": "images/kdrama-04.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "family", "language learning"],
       "series_number": 4
@@ -425,7 +425,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-05.png",
+      "cover": "images/kdrama-05.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "medical", "hospital", "language learning"],
       "series_number": 5
@@ -447,7 +447,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-06.png",
+      "cover": "images/kdrama-06.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "legal", "lawyer", "language learning"],
       "series_number": 6
@@ -469,7 +469,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-07.png",
+      "cover": "images/kdrama-07.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "historical", "sageuk", "language learning"],
       "series_number": 7
@@ -491,7 +491,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-08.png",
+      "cover": "images/kdrama-08.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "comedy", "humor", "language learning"],
       "series_number": 8
@@ -513,7 +513,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-09.png",
+      "cover": "images/kdrama-09.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "fantasy", "supernatural", "language learning"],
       "series_number": 9
@@ -535,7 +535,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kdrama-10.png",
+      "cover": "images/kdrama-10.jpg",
       "preview_available": true,
       "tags": ["korean", "kdrama", "school", "student", "language learning"],
       "series_number": 10
@@ -557,7 +557,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-01.png",
+      "cover": "images/klife-01.jpg",
       "preview_available": true,
       "tags": ["korean", "food", "cuisine", "culture", "language learning"],
       "series_number": 1
@@ -579,7 +579,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-02.png",
+      "cover": "images/klife-02.jpg",
       "preview_available": true,
       "tags": ["korean", "drinking", "soju", "culture", "language learning"],
       "series_number": 2
@@ -601,7 +601,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-03.png",
+      "cover": "images/klife-03.jpg",
       "preview_available": true,
       "tags": ["korean", "holidays", "chuseok", "seollal", "language learning"],
       "series_number": 3
@@ -623,7 +623,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-04.png",
+      "cover": "images/klife-04.jpg",
       "preview_available": true,
       "tags": ["korean", "wedding", "marriage", "culture", "language learning"],
       "series_number": 4
@@ -645,7 +645,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-05.png",
+      "cover": "images/klife-05.jpg",
       "preview_available": true,
       "tags": ["korean", "funeral", "condolences", "culture", "language learning"],
       "series_number": 5
@@ -667,7 +667,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-06.png",
+      "cover": "images/klife-06.jpg",
       "preview_available": true,
       "tags": ["korean", "military", "army", "culture", "language learning"],
       "series_number": 6
@@ -689,7 +689,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-07.png",
+      "cover": "images/klife-07.jpg",
       "preview_available": true,
       "tags": ["korean", "beauty", "skincare", "kbeauty", "language learning"],
       "series_number": 7
@@ -711,7 +711,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-08.png",
+      "cover": "images/klife-08.jpg",
       "preview_available": true,
       "tags": ["korean", "fashion", "style", "kfashion", "language learning"],
       "series_number": 8
@@ -733,7 +733,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-09.png",
+      "cover": "images/klife-09.jpg",
       "preview_available": true,
       "tags": ["korean", "apartment", "housing", "culture", "language learning"],
       "series_number": 9
@@ -755,7 +755,7 @@
       "price": 9.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/klife-10.png",
+      "cover": "images/klife-10.jpg",
       "preview_available": true,
       "tags": ["korean", "hagwon", "education", "academy", "language learning"],
       "series_number": 10
