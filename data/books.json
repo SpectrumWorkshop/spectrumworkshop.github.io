@@ -140,7 +140,7 @@
       "price": null,
       "isbn": null,
       "cover": "images/travel-10-02.jpg",
-      "preview_available": false,
+      "preview_available": true,
       "tags": [
         "asia",
         "southeast asia",
@@ -167,7 +167,7 @@
       "price": null,
       "isbn": null,
       "cover": "images/travel-11-01.jpg",
-      "preview_available": false,
+      "preview_available": true,
       "tags": [
         "방글라데시",
         "남아시아",
@@ -220,7 +220,7 @@
       "price": null,
       "isbn": null,
       "cover": "images/travel-13-01.jpg",
-      "preview_available": false,
+      "preview_available": true,
       "tags": [
         "중국",
         "오지여행",
@@ -273,7 +273,7 @@
       "price": null,
       "isbn": null,
       "cover": "images/travel-21-01.jpg",
-      "preview_available": false,
+      "preview_available": true,
       "tags": [
         "발틱",
         "유럽",
@@ -328,7 +328,7 @@
       "price": null,
       "isbn": null,
       "cover": "images/travel-42-01.jpg",
-      "preview_available": false,
+      "preview_available": true,
       "tags": [
         "북아프리카",
         "모로코",
