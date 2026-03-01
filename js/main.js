@@ -25,7 +25,7 @@ const i18n = {
     searchPlaceholder: '도서 검색...',
     // Book detail
     author: '저자', series: '시리즈', format: '형태', price: '가격',
-    priceTBD: '가격 미정', preview: '미리보기', buyNow: '구매하기',
+    priceTBD: '가격 미정', preview: '미리보기', buyNow: '구매하기', comingSoon: '준비중', paperback: 'Paperback',
     previewTitle: '미리보기', previewClose: '닫기',
     previewNotice: '미리보기 콘텐츠가 준비 중입니다.<br>곧 샘플 챕터를 확인하실 수 있습니다.',
     noResults: '검색 결과가 없습니다.',
@@ -128,7 +128,7 @@ const i18n = {
     catalogTitle: 'Book Catalog', catalogDesc: 'Browse all books from Spectrum Workshop',
     searchPlaceholder: 'Search books...',
     author: 'Author', series: 'Series', format: 'Format', price: 'Price',
-    priceTBD: 'TBD', preview: 'Preview', buyNow: 'Buy Now',
+    priceTBD: 'TBD', preview: 'Preview', buyNow: 'Buy Now', comingSoon: 'Coming Soon', paperback: 'Paperback',
     previewTitle: 'Sample Preview', previewClose: 'Close',
     previewNotice: 'Preview content is being prepared.<br>Sample chapters will be available soon.',
     noResults: 'No books found.',
@@ -439,9 +439,7 @@ function openBookDetail(bookId) {
           ${book.preview_available ? `<button class="btn btn--primary" onclick="showPreview('${book.id}')">
             \u{1F4D6} ${t('preview')}
           </button>` : ''}
-          ${(book.status === 'published' || book.status === 'ready') ? `<button class="btn btn--accent">
-            \u{1F6D2} ${t('buyNow')}
-          </button>` : ''}
+          ${renderStoreLinks(book)}
         </div>
         <div id="previewArea"></div>
       </div>
@@ -458,6 +456,30 @@ function closeModal() {
     overlay.classList.remove('active');
     document.body.style.overflow = '';
   }
+}
+
+// --- Store Links ---
+function renderStoreLinks(book) {
+  if (!book.store_links) {
+    if (book.status === 'published' || book.status === 'ready') {
+      return `<span class="btn btn--outline" style="cursor:default; opacity:0.6;">${t('comingSoon')}</span>`;
+    }
+    return '';
+  }
+  const links = [];
+  if (book.store_links.amazon) {
+    links.push(`<a href="${book.store_links.amazon}" target="_blank" rel="noopener" class="btn btn--accent store-btn store-btn--amazon">Amazon</a>`);
+  }
+  if (book.store_links.amazon_pb) {
+    links.push(`<a href="${book.store_links.amazon_pb}" target="_blank" rel="noopener" class="btn btn--outline store-btn store-btn--amazon-pb">${t('paperback')}</a>`);
+  }
+  if (book.store_links.google_play) {
+    links.push(`<a href="${book.store_links.google_play}" target="_blank" rel="noopener" class="btn btn--accent store-btn store-btn--google">Google Play</a>`);
+  }
+  if (book.store_links.kyobo) {
+    links.push(`<a href="${book.store_links.kyobo}" target="_blank" rel="noopener" class="btn btn--accent store-btn store-btn--kyobo">${currentLang === 'ko' ? '교보문고' : 'Kyobo'}</a>`);
+  }
+  return links.join('');
 }
 
 // --- EPUB Preview ---

@@ -52,7 +52,7 @@
       "language": "ko",
       "description_ko": "110개국 이상을 여행한 저자의 실전 독립여행 노하우를 담은 종합 가이드북",
       "description_en": "A comprehensive guidebook with practical independent travel know-how from an author who has traveled to 110+ countries",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub",
         "pdf"
@@ -61,6 +61,9 @@
       "isbn": null,
       "cover": "images/travel-00-01.jpg",
       "preview_available": true,
+      "store_links": {
+        "kyobo": "https://search.kyobobook.co.kr/search?keyword=9791199752306"
+      },
       "tags": [
         "독립여행",
         "세계여행",
@@ -79,7 +82,7 @@
       "language": "en",
       "description_ko": "110개국 이상을 여행한 저자의 영문판 독립여행 가이드",
       "description_en": "English edition of the practical independent travel guide from a 110+ country traveler",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub",
         "pdf"
@@ -88,6 +91,10 @@
       "isbn": null,
       "cover": "images/travel-00-02.jpg",
       "preview_available": true,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GL74RF9B",
+        "amazon_pb": "https://www.amazon.com/dp/B0GLXSHD82"
+      },
       "tags": [
         "independent travel",
         "world travel",
@@ -132,7 +139,7 @@
       "language": "en",
       "description_ko": "110개국 이상을 여행한 저자의 영문판 아시아 여행 가이드",
       "description_en": "English edition of the Asia travel guide from a 110+ country traveler",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub",
         "pdf"
@@ -141,6 +148,10 @@
       "isbn": null,
       "cover": "images/travel-10-02.jpg",
       "preview_available": true,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GNJRHCPB",
+        "amazon_pb": "https://www.amazon.com/dp/B0GNT3GVP6"
+      },
       "tags": [
         "asia",
         "southeast asia",
@@ -348,7 +359,7 @@
       "language": "en",
       "description_ko": "K-드라마 로맨스 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama romantic dialogues - 4-level complete edition with 160 dialogue practice opportunities",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -357,6 +368,9 @@
       "isbn": null,
       "cover": "images/kdrama-01.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=OIu-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -377,7 +391,7 @@
       "language": "en",
       "description_ko": "K-드라마 직장 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama workplace dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -386,6 +400,9 @@
       "isbn": null,
       "cover": "images/kdrama-02.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=Sou-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -407,7 +424,7 @@
       "language": "en",
       "description_ko": "K-드라마 스릴러 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama thriller dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -416,6 +433,9 @@
       "isbn": null,
       "cover": "images/kdrama-03.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=PIu-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -437,7 +457,7 @@
       "language": "en",
       "description_ko": "K-드라마 가족 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama family dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -446,6 +466,9 @@
       "isbn": null,
       "cover": "images/kdrama-04.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=Oou-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -466,7 +489,7 @@
       "language": "en",
       "description_ko": "K-드라마 의학 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama medical dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -475,6 +498,9 @@
       "isbn": null,
       "cover": "images/kdrama-05.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=SIu-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -496,7 +522,7 @@
       "language": "en",
       "description_ko": "K-드라마 법정 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama legal dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -505,6 +531,9 @@
       "isbn": null,
       "cover": "images/kdrama-06.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=Nou-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -526,7 +555,7 @@
       "language": "en",
       "description_ko": "K-드라마 사극 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama historical dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -535,6 +564,9 @@
       "isbn": null,
       "cover": "images/kdrama-07.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=Tou-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -556,7 +588,7 @@
       "language": "en",
       "description_ko": "K-드라마 코미디 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama comedy dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -565,6 +597,9 @@
       "isbn": null,
       "cover": "images/kdrama-08.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=Rou-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -586,7 +621,7 @@
       "language": "en",
       "description_ko": "K-드라마 판타지 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama fantasy dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -595,6 +630,9 @@
       "isbn": null,
       "cover": "images/kdrama-09.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=QIu-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -616,7 +654,7 @@
       "language": "en",
       "description_ko": "K-드라마 학교 장면으로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Drama school dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -625,6 +663,9 @@
       "isbn": null,
       "cover": "images/kdrama-10.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=Pou-EQAAQBAJ"
+      },
       "tags": [
         "korean",
         "kdrama",
@@ -646,7 +687,7 @@
       "language": "en",
       "description_ko": "한국 음식 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life food culture dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -655,6 +696,9 @@
       "isbn": null,
       "cover": "images/klife-01.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=Hr3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "food",
@@ -676,7 +720,7 @@
       "language": "en",
       "description_ko": "한국 음주 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life drinking culture dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -685,6 +729,9 @@
       "isbn": null,
       "cover": "images/klife-02.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=KL3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "drinking",
@@ -706,7 +753,7 @@
       "language": "en",
       "description_ko": "한국 명절 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life holiday dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -715,6 +762,9 @@
       "isbn": null,
       "cover": "images/klife-03.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=Kr3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "holidays",
@@ -736,7 +786,7 @@
       "language": "en",
       "description_ko": "한국 결혼 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life wedding dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -745,6 +795,9 @@
       "isbn": null,
       "cover": "images/klife-04.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=Nr3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "wedding",
@@ -766,7 +819,7 @@
       "language": "en",
       "description_ko": "한국 장례 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life funeral dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -775,6 +828,9 @@
       "isbn": null,
       "cover": "images/klife-05.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=gL3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "funeral",
@@ -796,7 +852,7 @@
       "language": "en",
       "description_ko": "한국 군대 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life military dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -805,6 +861,9 @@
       "isbn": null,
       "cover": "images/klife-06.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=lL3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "military",
@@ -826,7 +885,7 @@
       "language": "en",
       "description_ko": "한국 뷰티 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life beauty dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -835,6 +894,9 @@
       "isbn": null,
       "cover": "images/klife-07.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=or3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "beauty",
@@ -856,7 +918,7 @@
       "language": "en",
       "description_ko": "한국 패션 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life fashion dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -865,6 +927,9 @@
       "isbn": null,
       "cover": "images/klife-08.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=qr3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "fashion",
@@ -886,7 +951,7 @@
       "language": "en",
       "description_ko": "한국 아파트 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life apartment dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -895,6 +960,9 @@
       "isbn": null,
       "cover": "images/klife-09.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=tL3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "apartment",
@@ -916,7 +984,7 @@
       "language": "en",
       "description_ko": "한국 학원 문화로 배우는 한국어 회화 - 4단계 통합판",
       "description_en": "Learn Korean through authentic K-Life hagwon dialogues - 4-level complete edition",
-      "status": "ready",
+      "status": "published",
       "format": [
         "epub"
       ],
@@ -925,6 +993,9 @@
       "isbn": null,
       "cover": "images/klife-10.jpg",
       "preview_available": true,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=ur3AEQAAQBAJ"
+      },
       "tags": [
         "korean",
         "hagwon",
