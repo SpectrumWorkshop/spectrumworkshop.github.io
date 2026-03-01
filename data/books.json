@@ -32,6 +32,12 @@
       "name_ko": "은공예/아트",
       "name_en": "Silver Art",
       "icon": "gem"
+    },
+    {
+      "id": "divination",
+      "name_ko": "역학/사주",
+      "name_en": "Divination",
+      "icon": "stars"
     }
   ],
   "books": [
@@ -1841,6 +1847,306 @@
         "건축"
       ],
       "series_number": 5
+    },
+    {
+      "id": "sd-01",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "ENFP Saju Decoded",
+      "title_en": "ENFP Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI ENFP 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your ENFP personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-01.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "enfp",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 1
+    },
+    {
+      "id": "sd-02",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "ENTP Saju Decoded",
+      "title_en": "ENTP Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI ENTP 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your ENTP personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-02.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "entp",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 2
+    },
+    {
+      "id": "sd-03",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "INFP Saju Decoded",
+      "title_en": "INFP Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI INFP 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your INFP personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-03.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "infp",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 3
+    },
+    {
+      "id": "sd-04",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "INTP Saju Decoded",
+      "title_en": "INTP Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI INTP 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your INTP personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-04.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "intp",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 4
+    },
+    {
+      "id": "sd-05",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "ENFJ Saju Decoded",
+      "title_en": "ENFJ Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI ENFJ 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your ENFJ personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-05.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "enfj",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 5
+    },
+    {
+      "id": "sd-06",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "ENTJ Saju Decoded",
+      "title_en": "ENTJ Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI ENTJ 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your ENTJ personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-06.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "entj",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 6
+    },
+    {
+      "id": "sd-07",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "INFJ Saju Decoded",
+      "title_en": "INFJ Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI INFJ 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your INFJ personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-07.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "infj",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 7
+    },
+    {
+      "id": "sd-08",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "INTJ Saju Decoded",
+      "title_en": "INTJ Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI INTJ 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your INTJ personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-08.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "intj",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 8
+    },
+    {
+      "id": "sd-09",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "ESFP Saju Decoded",
+      "title_en": "ESFP Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI ESFP 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your ESFP personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-09.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "esfp",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 9
+    },
+    {
+      "id": "sd-10",
+      "category": "divination",
+      "series": "Saju Decoded",
+      "series_en": "Saju Decoded",
+      "title_ko": "ESTP Saju Decoded",
+      "title_en": "ESTP Saju Decoded",
+      "subtitle": "Where Your MBTI Meets the Eastern Code of Destiny",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "MBTI ESTP 유형과 동양 사주명리학의 만남 - 당신의 운명 코드를 해독하다",
+      "description_en": "Discover how your ESTP personality connects with the ancient Eastern art of Saju - decode your destiny",
+      "status": "draft",
+      "format": [
+        "epub"
+      ],
+      "price": 4.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/sd-10.jpg",
+      "preview_available": false,
+      "tags": [
+        "saju",
+        "mbti",
+        "estp",
+        "destiny",
+        "divination"
+      ],
+      "series_number": 10
     },
     {
       "id": "ws-01-ko",

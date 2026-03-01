@@ -242,7 +242,8 @@ function getCoverGradient(category) {
     'energy': 'linear-gradient(135deg, #e65100, #ff9800)',
     'fiction': 'linear-gradient(135deg, #7b1fa2, #ba68c8)',
     'tech': 'linear-gradient(135deg, #2e7d32, #66bb6a)',
-    'silver': 'linear-gradient(135deg, #546e7a, #b0bec5)'
+    'silver': 'linear-gradient(135deg, #546e7a, #b0bec5)',
+    'divination': 'linear-gradient(135deg, #4a148c, #9c27b0)'
   };
   return gradients[category] || 'linear-gradient(135deg, #667eea, #764ba2)';
 }
@@ -254,7 +255,8 @@ function getCategoryIcon(category) {
     'energy': '\u26A1',
     'fiction': '\u{1F4D6}',
     'tech': '\u{1F4BB}',
-    'silver': '\u{1F48E}'
+    'silver': '\u{1F48E}',
+    'divination': '\u2728'
   };
   return icons[category] || '\u{1F4DA}';
 }
