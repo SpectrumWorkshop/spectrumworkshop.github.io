@@ -38,6 +38,12 @@
       "name_ko": "기술서적",
       "name_en": "Technology",
       "icon": "cpu"
+    },
+    {
+      "id": "silver",
+      "name_ko": "은공예/아트",
+      "name_en": "Silver Art",
+      "icon": "gem"
     }
   ],
   "books": [
@@ -62,7 +68,7 @@
       "cover": "images/travel-00-01.jpg",
       "preview_available": true,
       "store_links": {
-        "kyobo": "https://search.kyobobook.co.kr/search?keyword=9791199752306"
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012607197"
       },
       "tags": [
         "독립여행",
@@ -348,6 +354,70 @@
       ]
     },
     {
+      "id": "lens-01",
+      "category": "travel",
+      "series": "여행자의 렌즈",
+      "series_en": "Traveler's Lens",
+      "title_ko": "방글라데시, 렌즈에 담다",
+      "title_en": "Bangladesh, Through the Lens",
+      "author": "김정욱",
+      "language": "ko",
+      "description_ko": "110개국 이상을 여행한 저자가 방글라데시의 생생한 일상과 풍경을 렌즈에 담은 포토 에세이",
+      "description_en": "A photo essay capturing the vivid daily life and landscapes of Bangladesh through the lens of a 110+ country traveler",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 14900,
+      "currency": "KRW",
+      "isbn": "979-11-997523-6-8",
+      "cover": "images/lens-01.jpg",
+      "preview_available": false,
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012624237"
+      },
+      "tags": [
+        "방글라데시",
+        "포토에세이",
+        "여행",
+        "남아시아"
+      ],
+      "series_number": 1
+    },
+    {
+      "id": "lens-02",
+      "category": "travel",
+      "series": "여행자의 렌즈",
+      "series_en": "Traveler's Lens",
+      "title_ko": "Bangladesh, Through the Lens",
+      "title_en": "Bangladesh, Through the Lens",
+      "author": "Jeongwook Kim",
+      "language": "en",
+      "description_ko": "방글라데시의 생생한 일상과 풍경을 담은 영문판 포토 에세이",
+      "description_en": "A photo essay capturing the vivid daily life and landscapes of Bangladesh",
+      "status": "published",
+      "format": [
+        "epub",
+        "paperback"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/lens-02.jpg",
+      "preview_available": false,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GNZ324ZR",
+        "amazon_pb": "https://www.amazon.com/dp/B0GPJKCSFV"
+      },
+      "tags": [
+        "bangladesh",
+        "photo essay",
+        "travel",
+        "south asia"
+      ],
+      "series_number": 2
+    },
+    {
       "id": "kdrama-01",
       "category": "korean",
       "series": "K-Drama Korean",
@@ -369,7 +439,7 @@
       "cover": "images/kdrama-01.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=OIu-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=OIu-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -401,7 +471,7 @@
       "cover": "images/kdrama-02.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Sou-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=Sou-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -434,7 +504,7 @@
       "cover": "images/kdrama-03.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=PIu-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=PIu-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -467,7 +537,7 @@
       "cover": "images/kdrama-04.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Oou-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=Oou-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -499,7 +569,7 @@
       "cover": "images/kdrama-05.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=SIu-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=SIu-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -532,7 +602,7 @@
       "cover": "images/kdrama-06.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Nou-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=Nou-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -565,7 +635,7 @@
       "cover": "images/kdrama-07.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Tou-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=Tou-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -598,7 +668,7 @@
       "cover": "images/kdrama-08.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Rou-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=Rou-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -631,7 +701,7 @@
       "cover": "images/kdrama-09.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=QIu-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=QIu-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -664,7 +734,7 @@
       "cover": "images/kdrama-10.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Pou-EQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=Pou-EQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -697,7 +767,7 @@
       "cover": "images/klife-01.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Hr3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=Hr3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -730,7 +800,7 @@
       "cover": "images/klife-02.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=KL3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=KL3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -763,7 +833,7 @@
       "cover": "images/klife-03.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Kr3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=Kr3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -796,7 +866,7 @@
       "cover": "images/klife-04.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Nr3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=Nr3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -829,7 +899,7 @@
       "cover": "images/klife-05.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=gL3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=gL3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -862,7 +932,7 @@
       "cover": "images/klife-06.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=lL3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=lL3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -895,7 +965,7 @@
       "cover": "images/klife-07.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=or3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=or3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -928,7 +998,7 @@
       "cover": "images/klife-08.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=qr3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=qr3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -961,7 +1031,7 @@
       "cover": "images/klife-09.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=tL3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=tL3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -994,7 +1064,7 @@
       "cover": "images/klife-10.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=ur3AEQAAQBAJ"
+        "google_play": "https://play.google.com/store/books/details?id=ur3AEQAAQBAJ&hl=en"
       },
       "tags": [
         "korean",
@@ -1004,6 +1074,1000 @@
         "language learning"
       ],
       "series_number": 10
+    },
+    {
+      "id": "kbeg-01",
+      "category": "korean",
+      "series": "K-Beginner Korean",
+      "series_en": "K-Beginner Korean",
+      "title_ko": "K-Beginner Korean: First Steps - Complete Edition",
+      "title_en": "K-Beginner Korean: First Steps - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "초보자를 위한 한국어 첫걸음 회화 - 4단계 통합판",
+      "description_en": "Learn Korean through beginner-friendly first steps dialogues - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kbeg-01.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "beginner",
+        "first",
+        "language learning"
+      ],
+      "series_number": 1
+    },
+    {
+      "id": "kbeg-02",
+      "category": "korean",
+      "series": "K-Beginner Korean",
+      "series_en": "K-Beginner Korean",
+      "title_ko": "K-Beginner Korean: Daily Life - Complete Edition",
+      "title_en": "K-Beginner Korean: Daily Life - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "초보자를 위한 한국어 일상생활 회화 - 4단계 통합판",
+      "description_en": "Learn Korean through beginner-friendly daily life dialogues - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kbeg-02.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "beginner",
+        "daily",
+        "language learning"
+      ],
+      "series_number": 2
+    },
+    {
+      "id": "kbeg-03",
+      "category": "korean",
+      "series": "K-Beginner Korean",
+      "series_en": "K-Beginner Korean",
+      "title_ko": "K-Beginner Korean: Social Life - Complete Edition",
+      "title_en": "K-Beginner Korean: Social Life - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "초보자를 위한 한국어 사회생활 회화 - 4단계 통합판",
+      "description_en": "Learn Korean through beginner-friendly social life dialogues - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kbeg-03.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "beginner",
+        "social",
+        "language learning"
+      ],
+      "series_number": 3
+    },
+    {
+      "id": "kbeg-04",
+      "category": "korean",
+      "series": "K-Beginner Korean",
+      "series_en": "K-Beginner Korean",
+      "title_ko": "K-Beginner Korean: Work & Study - Complete Edition",
+      "title_en": "K-Beginner Korean: Work & Study - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "초보자를 위한 한국어 직장과 학업 회화 - 4단계 통합판",
+      "description_en": "Learn Korean through beginner-friendly work & study dialogues - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kbeg-04.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "beginner",
+        "work",
+        "language learning"
+      ],
+      "series_number": 4
+    },
+    {
+      "id": "kbeg-05",
+      "category": "korean",
+      "series": "K-Beginner Korean",
+      "series_en": "K-Beginner Korean",
+      "title_ko": "K-Beginner Korean: Culture & Fun - Complete Edition",
+      "title_en": "K-Beginner Korean: Culture & Fun - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "초보자를 위한 한국어 문화와 놀이 회화 - 4단계 통합판",
+      "description_en": "Learn Korean through beginner-friendly culture & fun dialogues - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kbeg-05.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "beginner",
+        "culture",
+        "language learning"
+      ],
+      "series_number": 5
+    },
+    {
+      "id": "kwork-01",
+      "category": "korean",
+      "series": "K-Work Korean",
+      "series_en": "K-Work Korean",
+      "title_ko": "K-Work Korean: Work Korean - Complete Edition",
+      "title_en": "K-Work Korean: Work Korean - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "직장에서 쓰는 한국어 직장 한국어 회화 - 4단계 통합판",
+      "description_en": "Learn Korean for the workplace: work korean - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kwork-01.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "work",
+        "business",
+        "work",
+        "language learning"
+      ],
+      "series_number": 1
+    },
+    {
+      "id": "kwork-02",
+      "category": "korean",
+      "series": "K-Work Korean",
+      "series_en": "K-Work Korean",
+      "title_ko": "K-Work Korean: Office Meetings - Complete Edition",
+      "title_en": "K-Work Korean: Office Meetings - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "직장에서 쓰는 한국어 회의 회화 - 4단계 통합판",
+      "description_en": "Learn Korean for the workplace: office meetings - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kwork-02.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "work",
+        "business",
+        "office",
+        "language learning"
+      ],
+      "series_number": 2
+    },
+    {
+      "id": "kwork-03",
+      "category": "korean",
+      "series": "K-Work Korean",
+      "series_en": "K-Work Korean",
+      "title_ko": "K-Work Korean: Business Trips - Complete Edition",
+      "title_en": "K-Work Korean: Business Trips - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "직장에서 쓰는 한국어 출장 회화 - 4단계 통합판",
+      "description_en": "Learn Korean for the workplace: business trips - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kwork-03.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "work",
+        "business",
+        "business",
+        "language learning"
+      ],
+      "series_number": 3
+    },
+    {
+      "id": "kwork-04",
+      "category": "korean",
+      "series": "K-Work Korean",
+      "series_en": "K-Work Korean",
+      "title_ko": "K-Work Korean: Work Social - Complete Edition",
+      "title_en": "K-Work Korean: Work Social - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "직장에서 쓰는 한국어 직장 사교 회화 - 4단계 통합판",
+      "description_en": "Learn Korean for the workplace: work social - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kwork-04.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "work",
+        "business",
+        "work",
+        "language learning"
+      ],
+      "series_number": 4
+    },
+    {
+      "id": "kwork-05",
+      "category": "korean",
+      "series": "K-Work Korean",
+      "series_en": "K-Work Korean",
+      "title_ko": "K-Work Korean: Career Changes - Complete Edition",
+      "title_en": "K-Work Korean: Career Changes - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "직장에서 쓰는 한국어 이직 회화 - 4단계 통합판",
+      "description_en": "Learn Korean for the workplace: career changes - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kwork-05.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "work",
+        "business",
+        "career",
+        "language learning"
+      ],
+      "series_number": 5
+    },
+    {
+      "id": "kmed-01",
+      "category": "korean",
+      "series": "K-Medical Korean",
+      "series_en": "K-Medical Korean",
+      "title_ko": "K-Medical Korean: Medical Korean - Complete Edition",
+      "title_en": "K-Medical Korean: Medical Korean - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "의료 상황에서 쓰는 한국어 의료 한국어 회화 - 4단계 통합판",
+      "description_en": "Learn Korean for medical situations: medical korean - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kmed-01.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "medical",
+        "healthcare",
+        "language learning"
+      ],
+      "series_number": 1
+    },
+    {
+      "id": "kmed-02",
+      "category": "korean",
+      "series": "K-Medical Korean",
+      "series_en": "K-Medical Korean",
+      "title_ko": "K-Medical Korean: Hospital Visit - Complete Edition",
+      "title_en": "K-Medical Korean: Hospital Visit - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "의료 상황에서 쓰는 한국어 병원 방문 회화 - 4단계 통합판",
+      "description_en": "Learn Korean for medical situations: hospital visit - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kmed-02.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "medical",
+        "healthcare",
+        "language learning"
+      ],
+      "series_number": 2
+    },
+    {
+      "id": "kmed-03",
+      "category": "korean",
+      "series": "K-Medical Korean",
+      "series_en": "K-Medical Korean",
+      "title_ko": "K-Medical Korean: Pharmacy and Prescriptions - Complete Edition",
+      "title_en": "K-Medical Korean: Pharmacy and Prescriptions - Complete Edition",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "의료 상황에서 쓰는 한국어 약국과 처방 회화 - 4단계 통합판",
+      "description_en": "Learn Korean for medical situations: pharmacy and prescriptions - 4-level complete edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kmed-03.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "medical",
+        "healthcare",
+        "language learning"
+      ],
+      "series_number": 3
+    },
+    {
+      "id": "hm-01",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 1: Letters & Sounds",
+      "title_en": "Hangul Master Book 1: Letters & Sounds",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 1: Letters & Sounds",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 1: Letters & Sounds",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-01.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 1,
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GNSW48CT"
+      }
+    },
+    {
+      "id": "hm-02",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 2: Syllable Building",
+      "title_en": "Hangul Master Book 2: Syllable Building",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 2: Syllable Building",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 2: Syllable Building",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-02.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 2,
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GP9912JD"
+      }
+    },
+    {
+      "id": "hm-03",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 3: First 100 Words",
+      "title_en": "Hangul Master Book 3: First 100 Words",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 3: First 100 Words",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 3: First 100 Words",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-03.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 3,
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GPH9YZ9S"
+      }
+    },
+    {
+      "id": "hm-04",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 4: Daily Life",
+      "title_en": "Hangul Master Book 4: Daily Life",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 4: Daily Life",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 4: Daily Life",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-04.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 4,
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GPNKJK7P"
+      }
+    },
+    {
+      "id": "hm-05",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 5: Numbers, Time & Money",
+      "title_en": "Hangul Master Book 5: Numbers, Time & Money",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 5: Numbers, Time & Money",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 5: Numbers, Time & Money",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-05.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 5,
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GPJPYHVW"
+      }
+    },
+    {
+      "id": "hm-06",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 6: People & Places",
+      "title_en": "Hangul Master Book 6: People & Places",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 6: People & Places",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 6: People & Places",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-06.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 6,
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GPY1QXJN"
+      }
+    },
+    {
+      "id": "hm-07",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 7: Essential Phrases",
+      "title_en": "Hangul Master Book 7: Essential Phrases",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 7: Essential Phrases",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 7: Essential Phrases",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-07.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 7,
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GPXXK3VP"
+      }
+    },
+    {
+      "id": "hm-08",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 8: Sentence Patterns",
+      "title_en": "Hangul Master Book 8: Sentence Patterns",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 8: Sentence Patterns",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 8: Sentence Patterns",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-08.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 8
+    },
+    {
+      "id": "hm-09",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 9: K-Pop & K-Drama",
+      "title_en": "Hangul Master Book 9: K-Pop & K-Drama",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 9: K-Pop & K-Drama",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 9: K-Pop & K-Drama",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-09.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 9,
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GPY1W7FM"
+      }
+    },
+    {
+      "id": "hm-10",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Book 10: Korean Wisdom",
+      "title_en": "Hangul Master Book 10: Korean Wisdom",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Book 10: Korean Wisdom",
+      "description_en": "Korean writing practice workbook - Hangul Master Book 10: Korean Wisdom",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-10.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 10,
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GPY5GTSQ"
+      }
+    },
+    {
+      "id": "hm-11",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Kids Edition",
+      "title_en": "Hangul Master Kids Edition",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Kids Edition",
+      "description_en": "Korean writing practice workbook - Hangul Master Kids Edition",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-11.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 11
+    },
+    {
+      "id": "hm-12",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Travel Pocket Edition",
+      "title_en": "Hangul Master Travel Pocket Edition",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Travel Pocket Edition",
+      "description_en": "Korean writing practice workbook - Hangul Master Travel Pocket Edition",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-12.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 12
+    },
+    {
+      "id": "hm-13",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Calligraphy Art Edition",
+      "title_en": "Hangul Master Calligraphy Art Edition",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Calligraphy Art Edition",
+      "description_en": "Korean writing practice workbook - Hangul Master Calligraphy Art Edition",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-13.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 13
+    },
+    {
+      "id": "hm-14",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Grammar 1",
+      "title_en": "Hangul Master Grammar 1",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Grammar 1",
+      "description_en": "Korean writing practice workbook - Hangul Master Grammar 1",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-14.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 14
+    },
+    {
+      "id": "hm-15",
+      "category": "korean",
+      "series": "Hangul Master",
+      "series_en": "Hangul Master",
+      "title_ko": "Hangul Master Grammar 2",
+      "title_en": "Hangul Master Grammar 2",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "한글 쓰기 연습 교재 - Hangul Master Grammar 2",
+      "description_en": "Korean writing practice workbook - Hangul Master Grammar 2",
+      "status": "published",
+      "format": [
+        "paperback"
+      ],
+      "price": null,
+      "isbn": null,
+      "cover": "images/hm-15.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "hangul",
+        "writing",
+        "practice",
+        "workbook"
+      ],
+      "series_number": 15
+    },
+    {
+      "id": "kisba-01",
+      "category": "energy",
+      "series": "KISBA 건물에너지 시뮬레이션",
+      "series_en": "KISBA Building Energy Simulation",
+      "title_ko": "대형 오피스 에너지 시뮬레이션과 AI 분석",
+      "title_en": "Large Office Energy Simulation and AI Analysis",
+      "subtitle": "EnergyPlus EMS 전략과 AI를 활용한 건물 에너지 최적화 실무 가이드",
+      "author": "한국지능형스마트건축물협회지 (KISBA)",
+      "language": "ko",
+      "description_ko": "EnergyPlus EMS 전략과 AI를 활용한 건물 에너지 최적화 실무 가이드",
+      "description_en": "Practical guide for large office energy simulation and ai analysis with EnergyPlus and AI",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 25000,
+      "currency": "KRW",
+      "isbn": "979-11-997523-1-3",
+      "cover": "images/kisba-01.jpg",
+      "preview_available": false,
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012607139"
+      },
+      "tags": [
+        "EnergyPlus",
+        "에너지",
+        "시뮬레이션",
+        "AI",
+        "건축"
+      ],
+      "series_number": 1
+    },
+    {
+      "id": "kisba-02",
+      "category": "energy",
+      "series": "KISBA 건물에너지 시뮬레이션",
+      "series_en": "KISBA Building Energy Simulation",
+      "title_ko": "중형 오피스 에너지 시뮬레이션과 AI 분석",
+      "title_en": "Medium Office Energy Simulation and AI Analysis",
+      "subtitle": "VRF 시스템과 AI를 활용한 중형 건물 에너지 절감 실무 가이드",
+      "author": "한국지능형스마트건축물협회지 (KISBA)",
+      "language": "ko",
+      "description_ko": "VRF 시스템과 AI를 활용한 중형 건물 에너지 절감 실무 가이드",
+      "description_en": "Practical guide for medium office energy simulation and ai analysis with EnergyPlus and AI",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 25000,
+      "currency": "KRW",
+      "isbn": "979-11-997523-2-0",
+      "cover": "images/kisba-02.jpg",
+      "preview_available": false,
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012607141"
+      },
+      "tags": [
+        "EnergyPlus",
+        "에너지",
+        "시뮬레이션",
+        "AI",
+        "건축"
+      ],
+      "series_number": 2
+    },
+    {
+      "id": "kisba-03",
+      "category": "energy",
+      "series": "KISBA 건물에너지 시뮬레이션",
+      "series_en": "KISBA Building Energy Simulation",
+      "title_ko": "소형 오피스 에너지 시뮬레이션과 AI 분석",
+      "title_en": "Small Office Energy Simulation and AI Analysis",
+      "subtitle": "PSZ-HP 시스템과 AI를 활용한 소형 건물 에너지 절감 실무 가이드",
+      "author": "한국지능형스마트건축물협회지 (KISBA)",
+      "language": "ko",
+      "description_ko": "PSZ-HP 시스템과 AI를 활용한 소형 건물 에너지 절감 실무 가이드",
+      "description_en": "Practical guide for small office energy simulation and ai analysis with EnergyPlus and AI",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 25000,
+      "currency": "KRW",
+      "isbn": "979-11-997523-3-7",
+      "cover": "images/kisba-03.jpg",
+      "preview_available": false,
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012607142"
+      },
+      "tags": [
+        "EnergyPlus",
+        "에너지",
+        "시뮬레이션",
+        "AI",
+        "건축"
+      ],
+      "series_number": 3
+    },
+    {
+      "id": "kisba-04",
+      "category": "energy",
+      "series": "KISBA 건물에너지 시뮬레이션",
+      "series_en": "KISBA Building Energy Simulation",
+      "title_ko": "소매점 에너지 시뮬레이션과 AI 분석",
+      "title_en": "Standalone Retail Energy Simulation and AI Analysis",
+      "subtitle": "PSZ-AC 시스템과 AI를 활용한 소매점 에너지 절감 실무 가이드",
+      "author": "한국지능형스마트건축물협회지 (KISBA)",
+      "language": "ko",
+      "description_ko": "PSZ-AC 시스템과 AI를 활용한 소매점 에너지 절감 실무 가이드",
+      "description_en": "Practical guide for standalone retail energy simulation and ai analysis with EnergyPlus and AI",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 25000,
+      "currency": "KRW",
+      "isbn": "979-11-997523-4-4",
+      "cover": "images/kisba-04.jpg",
+      "preview_available": false,
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012607143"
+      },
+      "tags": [
+        "EnergyPlus",
+        "에너지",
+        "시뮬레이션",
+        "AI",
+        "건축"
+      ],
+      "series_number": 4
+    },
+    {
+      "id": "kisba-05",
+      "category": "energy",
+      "series": "KISBA 건물에너지 시뮬레이션",
+      "series_en": "KISBA Building Energy Simulation",
+      "title_ko": "초등학교 에너지 시뮬레이션과 AI 분석",
+      "title_en": "Primary School Energy Simulation and AI Analysis",
+      "subtitle": "VAV+Boiler 시스템과 AI를 활용한 학교 에너지 절감 실무 가이드",
+      "author": "한국지능형스마트건축물협회지 (KISBA)",
+      "language": "ko",
+      "description_ko": "VAV+Boiler 시스템과 AI를 활용한 학교 에너지 절감 실무 가이드",
+      "description_en": "Practical guide for primary school energy simulation and ai analysis with EnergyPlus and AI",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 25000,
+      "currency": "KRW",
+      "isbn": "979-11-997523-5-1",
+      "cover": "images/kisba-05.jpg",
+      "preview_available": false,
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012607144"
+      },
+      "tags": [
+        "EnergyPlus",
+        "에너지",
+        "시뮬레이션",
+        "AI",
+        "건축"
+      ],
+      "series_number": 5
     },
     {
       "id": "energy-s1-01",
@@ -1182,6 +2246,198 @@
         "스핀오프",
         "그림자",
         "디스토피아"
+      ],
+      "series_number": 3
+    },
+    {
+      "id": "ws-01-ko",
+      "category": "silver",
+      "series": "은의 세계",
+      "series_en": "The World of Silver",
+      "title_ko": "은빛 순간",
+      "title_en": "Silver Moments",
+      "subtitle": "모운 작품집",
+      "author": "모운 (Mo Un)",
+      "language": "ko",
+      "description_ko": "은공예 작가 모운의 작품 세계를 담은 첫 번째 포트폴리오",
+      "description_en": "The first portfolio showcasing the silver craft artistry of Mo Un",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 14900,
+      "currency": "KRW",
+      "isbn": "979-11-997523-7-5",
+      "cover": "images/ws-01-ko.jpg",
+      "preview_available": false,
+      "tags": [
+        "은공예",
+        "실버",
+        "쥬얼리",
+        "아트"
+      ],
+      "series_number": 1,
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012624288"
+      }
+    },
+    {
+      "id": "ws-01",
+      "category": "silver",
+      "series": "은의 세계",
+      "series_en": "The World of Silver",
+      "title_ko": "Silver Moments",
+      "title_en": "Silver Moments",
+      "subtitle": "A Portfolio by Mo Un",
+      "author": "Mo Un",
+      "language": "en",
+      "description_ko": "은공예 작가 모운의 작품 세계를 담은 첫 번째 포트폴리오",
+      "description_en": "The first portfolio showcasing the silver craft artistry of Mo Un",
+      "status": "published",
+      "format": [
+        "epub",
+        "paperback"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/ws-01.jpg",
+      "preview_available": false,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GNLCJTF9",
+        "amazon_pb": "https://www.amazon.com/dp/B0GNNP339Y"
+      },
+      "tags": [
+        "silver",
+        "jewelry",
+        "art",
+        "craft"
+      ],
+      "series_number": 1
+    },
+    {
+      "id": "ws-02-ko",
+      "category": "silver",
+      "series": "은의 세계",
+      "series_en": "The World of Silver",
+      "title_ko": "은을 입다",
+      "title_en": "Wearing Silver",
+      "subtitle": "스타일링의 기술",
+      "author": "모운 (Mo Un)",
+      "language": "ko",
+      "description_ko": "은 쥬얼리 스타일링의 다양한 기법과 노하우를 담은 가이드",
+      "description_en": "A guide to various techniques and know-how for silver jewelry styling",
+      "status": "hold",
+      "format": [
+        "epub"
+      ],
+      "price": 14900,
+      "currency": "KRW",
+      "isbn": "979-11-997523-8-2",
+      "cover": "images/ws-02-ko.jpg",
+      "preview_available": false,
+      "tags": [
+        "은공예",
+        "실버",
+        "쥬얼리",
+        "아트"
+      ],
+      "series_number": 2
+    },
+    {
+      "id": "ws-02",
+      "category": "silver",
+      "series": "은의 세계",
+      "series_en": "The World of Silver",
+      "title_ko": "Wearing Silver",
+      "title_en": "Wearing Silver",
+      "subtitle": "The Art of Styling",
+      "author": "Mo Un",
+      "language": "en",
+      "description_ko": "은 쥬얼리 스타일링의 다양한 기법과 노하우를 담은 가이드",
+      "description_en": "A guide to various techniques and know-how for silver jewelry styling",
+      "status": "published",
+      "format": [
+        "epub",
+        "paperback"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/ws-02.jpg",
+      "preview_available": false,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GNMR7RLQ",
+        "amazon_pb": "https://www.amazon.com/dp/B0GNRG2TVZ"
+      },
+      "tags": [
+        "silver",
+        "jewelry",
+        "art",
+        "craft"
+      ],
+      "series_number": 2
+    },
+    {
+      "id": "ws-03-ko",
+      "category": "silver",
+      "series": "은의 세계",
+      "series_en": "The World of Silver",
+      "title_ko": "은의 시간",
+      "title_en": "The Time of Silver",
+      "subtitle": "5,000년의 빛",
+      "author": "모운 (Mo Un)",
+      "language": "ko",
+      "description_ko": "5,000년에 걸친 은의 역사와 문화적 의미를 탐구하는 교양서",
+      "description_en": "An exploration of the 5,000-year history and cultural significance of silver",
+      "status": "hold",
+      "format": [
+        "epub"
+      ],
+      "price": 14900,
+      "currency": "KRW",
+      "isbn": "979-11-997523-9-9",
+      "cover": "images/ws-03-ko.jpg",
+      "preview_available": false,
+      "tags": [
+        "은공예",
+        "실버",
+        "쥬얼리",
+        "아트"
+      ],
+      "series_number": 3
+    },
+    {
+      "id": "ws-03",
+      "category": "silver",
+      "series": "은의 세계",
+      "series_en": "The World of Silver",
+      "title_ko": "The Time of Silver",
+      "title_en": "The Time of Silver",
+      "subtitle": "5,000 Years of Light",
+      "author": "Mo Un",
+      "language": "en",
+      "description_ko": "5,000년에 걸친 은의 역사와 문화적 의미를 탐구하는 교양서",
+      "description_en": "An exploration of the 5,000-year history and cultural significance of silver",
+      "status": "published",
+      "format": [
+        "epub",
+        "paperback"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/ws-03.jpg",
+      "preview_available": false,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GNN1XLS8",
+        "amazon_pb": "https://www.amazon.com/dp/B0GPKC1KCM"
+      },
+      "tags": [
+        "silver",
+        "jewelry",
+        "art",
+        "craft"
       ],
       "series_number": 3
     },

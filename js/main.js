@@ -241,7 +241,8 @@ function getCoverGradient(category) {
     'korean': 'linear-gradient(135deg, #c62828, #ef5350)',
     'energy': 'linear-gradient(135deg, #e65100, #ff9800)',
     'fiction': 'linear-gradient(135deg, #7b1fa2, #ba68c8)',
-    'tech': 'linear-gradient(135deg, #2e7d32, #66bb6a)'
+    'tech': 'linear-gradient(135deg, #2e7d32, #66bb6a)',
+    'silver': 'linear-gradient(135deg, #546e7a, #b0bec5)'
   };
   return gradients[category] || 'linear-gradient(135deg, #667eea, #764ba2)';
 }
@@ -252,16 +253,23 @@ function getCategoryIcon(category) {
     'korean': '\u{1F1F0}\u{1F1F7}',
     'energy': '\u26A1',
     'fiction': '\u{1F4D6}',
-    'tech': '\u{1F4BB}'
+    'tech': '\u{1F4BB}',
+    'silver': '\u{1F48E}'
   };
   return icons[category] || '\u{1F4DA}';
+}
+
+function formatPrice(book) {
+  if (!book.price) return t('priceTBD');
+  if (book.currency === 'KRW') return `\u20A9${book.price.toLocaleString()}`;
+  return `$${book.price.toFixed(2)}`;
 }
 
 function renderBookCard(book) {
   const title = currentLang === 'ko' ? book.title_ko : book.title_en;
   const gradient = getCoverGradient(book.category);
   const icon = getCategoryIcon(book.category);
-  const priceText = book.price ? `$${book.price.toFixed(2)}` : t('priceTBD');
+  const priceText = formatPrice(book);
 
   const coverContent = book.cover
     ? `<img src="${book.cover}" alt="${title}" style="width:100%; height:100%; object-fit:cover;">`
@@ -398,7 +406,7 @@ function openBookDetail(bookId) {
   const desc = currentLang === 'ko' ? book.description_ko : book.description_en;
   const gradient = getCoverGradient(book.category);
   const icon = getCategoryIcon(book.category);
-  const priceText = book.price ? `$${book.price.toFixed(2)}` : t('priceTBD');
+  const priceText = formatPrice(book);
 
   const modalCoverContent = book.cover
     ? `<img src="${book.cover}" alt="${title}" style="width:100%; height:100%; object-fit:cover; border-radius:12px;">`
