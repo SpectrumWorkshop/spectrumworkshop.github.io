@@ -16,10 +16,16 @@
       "icon": "globe"
     },
     {
-      "id": "korean",
-      "name_ko": "한국어 학습",
-      "name_en": "Korean Language",
-      "icon": "language"
+      "id": "speaking",
+      "name_ko": "한국어 말하기",
+      "name_en": "Korean Speaking",
+      "icon": "speech"
+    },
+    {
+      "id": "writing",
+      "name_ko": "한국어 쓰기",
+      "name_en": "Korean Writing",
+      "icon": "pen"
     },
     {
       "id": "energy",
@@ -198,7 +204,7 @@
     },
     {
       "id": "kdrama-01",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: Romance - Complete Edition",
@@ -230,7 +236,7 @@
     },
     {
       "id": "kdrama-02",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: Office - Complete Edition",
@@ -263,7 +269,7 @@
     },
     {
       "id": "kdrama-03",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: Thriller - Complete Edition",
@@ -296,7 +302,7 @@
     },
     {
       "id": "kdrama-04",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: Family - Complete Edition",
@@ -328,7 +334,7 @@
     },
     {
       "id": "kdrama-05",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: Medical - Complete Edition",
@@ -361,7 +367,7 @@
     },
     {
       "id": "kdrama-06",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: Legal - Complete Edition",
@@ -394,7 +400,7 @@
     },
     {
       "id": "kdrama-07",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: Historical - Complete Edition",
@@ -427,7 +433,7 @@
     },
     {
       "id": "kdrama-08",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: Comedy - Complete Edition",
@@ -460,7 +466,7 @@
     },
     {
       "id": "kdrama-09",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: Fantasy - Complete Edition",
@@ -493,7 +499,7 @@
     },
     {
       "id": "kdrama-10",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Drama Korean",
       "series_en": "K-Drama Korean",
       "title_ko": "K-Drama Korean: School - Complete Edition",
@@ -526,7 +532,7 @@
     },
     {
       "id": "klife-01",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Food Culture - Complete Edition",
@@ -559,7 +565,7 @@
     },
     {
       "id": "klife-02",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Drinking Culture - Complete Edition",
@@ -592,7 +598,7 @@
     },
     {
       "id": "klife-03",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Holidays - Complete Edition",
@@ -625,7 +631,7 @@
     },
     {
       "id": "klife-04",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Wedding - Complete Edition",
@@ -658,7 +664,7 @@
     },
     {
       "id": "klife-05",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Funeral - Complete Edition",
@@ -691,7 +697,7 @@
     },
     {
       "id": "klife-06",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Military - Complete Edition",
@@ -724,7 +730,7 @@
     },
     {
       "id": "klife-07",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Beauty - Complete Edition",
@@ -757,7 +763,7 @@
     },
     {
       "id": "klife-08",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Fashion - Complete Edition",
@@ -790,7 +796,7 @@
     },
     {
       "id": "klife-09",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Apartment - Complete Edition",
@@ -823,7 +829,7 @@
     },
     {
       "id": "klife-10",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Life Korean",
       "series_en": "K-Life Korean",
       "title_ko": "K-Life Korean: Hagwon - Complete Edition",
@@ -856,7 +862,7 @@
     },
     {
       "id": "kbeg-01",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Beginner Korean",
       "series_en": "K-Beginner Korean",
       "title_ko": "K-Beginner Korean: First Steps - Complete Edition",
@@ -885,7 +891,7 @@
     },
     {
       "id": "kbeg-02",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Beginner Korean",
       "series_en": "K-Beginner Korean",
       "title_ko": "K-Beginner Korean: Daily Life - Complete Edition",
@@ -914,7 +920,7 @@
     },
     {
       "id": "kbeg-03",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Beginner Korean",
       "series_en": "K-Beginner Korean",
       "title_ko": "K-Beginner Korean: Social Life - Complete Edition",
@@ -943,7 +949,7 @@
     },
     {
       "id": "kbeg-04",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Beginner Korean",
       "series_en": "K-Beginner Korean",
       "title_ko": "K-Beginner Korean: Work & Study - Complete Edition",
@@ -972,7 +978,7 @@
     },
     {
       "id": "kbeg-05",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Beginner Korean",
       "series_en": "K-Beginner Korean",
       "title_ko": "K-Beginner Korean: Culture & Fun - Complete Edition",
@@ -1001,7 +1007,7 @@
     },
     {
       "id": "kwork-01",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Work Korean",
       "series_en": "K-Work Korean",
       "title_ko": "K-Work Korean: Work Korean - Complete Edition",
@@ -1031,7 +1037,7 @@
     },
     {
       "id": "kwork-02",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Work Korean",
       "series_en": "K-Work Korean",
       "title_ko": "K-Work Korean: Office Meetings - Complete Edition",
@@ -1061,7 +1067,7 @@
     },
     {
       "id": "kwork-03",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Work Korean",
       "series_en": "K-Work Korean",
       "title_ko": "K-Work Korean: Business Trips - Complete Edition",
@@ -1091,7 +1097,7 @@
     },
     {
       "id": "kwork-04",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Work Korean",
       "series_en": "K-Work Korean",
       "title_ko": "K-Work Korean: Work Social - Complete Edition",
@@ -1121,7 +1127,7 @@
     },
     {
       "id": "kwork-05",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Work Korean",
       "series_en": "K-Work Korean",
       "title_ko": "K-Work Korean: Career Changes - Complete Edition",
@@ -1151,7 +1157,7 @@
     },
     {
       "id": "kmed-01",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Medical Korean",
       "series_en": "K-Medical Korean",
       "title_ko": "K-Medical Korean: Medical Korean - Complete Edition",
@@ -1180,7 +1186,7 @@
     },
     {
       "id": "kmed-02",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Medical Korean",
       "series_en": "K-Medical Korean",
       "title_ko": "K-Medical Korean: Hospital Visit - Complete Edition",
@@ -1209,7 +1215,7 @@
     },
     {
       "id": "kmed-03",
-      "category": "korean",
+      "category": "speaking",
       "series": "K-Medical Korean",
       "series_en": "K-Medical Korean",
       "title_ko": "K-Medical Korean: Pharmacy and Prescriptions - Complete Edition",
@@ -1238,7 +1244,7 @@
     },
     {
       "id": "hm-01",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 1: Letters & Sounds",
@@ -1251,7 +1257,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-01.jpg",
       "preview_available": false,
@@ -1265,11 +1271,12 @@
       "series_number": 1,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GNSW48CT"
-      }
+      },
+      "currency": "USD"
     },
     {
       "id": "hm-02",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 2: Syllable Building",
@@ -1282,7 +1289,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-02.jpg",
       "preview_available": false,
@@ -1296,11 +1303,12 @@
       "series_number": 2,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GP9912JD"
-      }
+      },
+      "currency": "USD"
     },
     {
       "id": "hm-03",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 3: First 100 Words",
@@ -1313,7 +1321,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-03.jpg",
       "preview_available": false,
@@ -1327,11 +1335,12 @@
       "series_number": 3,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GPH9YZ9S"
-      }
+      },
+      "currency": "USD"
     },
     {
       "id": "hm-04",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 4: Daily Life",
@@ -1344,7 +1353,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-04.jpg",
       "preview_available": false,
@@ -1358,11 +1367,12 @@
       "series_number": 4,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GPNKJK7P"
-      }
+      },
+      "currency": "USD"
     },
     {
       "id": "hm-05",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 5: Numbers, Time & Money",
@@ -1375,7 +1385,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-05.jpg",
       "preview_available": false,
@@ -1389,11 +1399,12 @@
       "series_number": 5,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GPJPYHVW"
-      }
+      },
+      "currency": "USD"
     },
     {
       "id": "hm-06",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 6: People & Places",
@@ -1406,7 +1417,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-06.jpg",
       "preview_available": false,
@@ -1420,11 +1431,12 @@
       "series_number": 6,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GPY1QXJN"
-      }
+      },
+      "currency": "USD"
     },
     {
       "id": "hm-07",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 7: Essential Phrases",
@@ -1437,7 +1449,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-07.jpg",
       "preview_available": false,
@@ -1451,11 +1463,12 @@
       "series_number": 7,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GPXXK3VP"
-      }
+      },
+      "currency": "USD"
     },
     {
       "id": "hm-08",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 8: Sentence Patterns",
@@ -1468,7 +1481,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-08.jpg",
       "preview_available": false,
@@ -1479,11 +1492,12 @@
         "practice",
         "workbook"
       ],
-      "series_number": 8
+      "series_number": 8,
+      "currency": "USD"
     },
     {
       "id": "hm-09",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 9: K-Pop & K-Drama",
@@ -1496,7 +1510,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-09.jpg",
       "preview_available": false,
@@ -1510,11 +1524,12 @@
       "series_number": 9,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GPY1W7FM"
-      }
+      },
+      "currency": "USD"
     },
     {
       "id": "hm-10",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Book 10: Korean Wisdom",
@@ -1527,7 +1542,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 6.99,
       "isbn": null,
       "cover": "images/hm-10.jpg",
       "preview_available": false,
@@ -1541,11 +1556,12 @@
       "series_number": 10,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GPY5GTSQ"
-      }
+      },
+      "currency": "USD"
     },
     {
       "id": "hm-11",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Kids Edition",
@@ -1558,7 +1574,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 7.99,
       "isbn": null,
       "cover": "images/hm-11.jpg",
       "preview_available": false,
@@ -1569,11 +1585,12 @@
         "practice",
         "workbook"
       ],
-      "series_number": 11
+      "series_number": 11,
+      "currency": "USD"
     },
     {
       "id": "hm-12",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Travel Pocket Edition",
@@ -1586,7 +1603,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 7.99,
       "isbn": null,
       "cover": "images/hm-12.jpg",
       "preview_available": false,
@@ -1597,11 +1614,12 @@
         "practice",
         "workbook"
       ],
-      "series_number": 12
+      "series_number": 12,
+      "currency": "USD"
     },
     {
       "id": "hm-13",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Calligraphy Art Edition",
@@ -1614,7 +1632,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-13.jpg",
       "preview_available": false,
@@ -1625,11 +1643,12 @@
         "practice",
         "workbook"
       ],
-      "series_number": 13
+      "series_number": 13,
+      "currency": "USD"
     },
     {
       "id": "hm-14",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Grammar 1",
@@ -1642,7 +1661,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 7.99,
       "isbn": null,
       "cover": "images/hm-14.jpg",
       "preview_available": false,
@@ -1653,11 +1672,12 @@
         "practice",
         "workbook"
       ],
-      "series_number": 14
+      "series_number": 14,
+      "currency": "USD"
     },
     {
       "id": "hm-15",
-      "category": "korean",
+      "category": "writing",
       "series": "Hangul Master",
       "series_en": "Hangul Master",
       "title_ko": "Hangul Master Grammar 2",
@@ -1670,7 +1690,7 @@
       "format": [
         "paperback"
       ],
-      "price": null,
+      "price": 7.99,
       "isbn": null,
       "cover": "images/hm-15.jpg",
       "preview_available": false,
@@ -1681,7 +1701,8 @@
         "practice",
         "workbook"
       ],
-      "series_number": 15
+      "series_number": 15,
+      "currency": "USD"
     },
     {
       "id": "kisba-01",

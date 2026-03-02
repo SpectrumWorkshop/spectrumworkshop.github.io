@@ -38,9 +38,9 @@
       <p class="hero__subtitle" id="heroSubtitle">
         AI 기술과 전문 지식의 융합으로 여행, 언어, 기술, 에너지 분야의 새로운 스펙트럼을 만들어가는 출판사입니다.
       </p>
-      <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
-        <a href="catalog.html" class="btn btn--primary" style="padding:14px 32px; font-size:1rem;" id="heroCatalogBtn">도서 카탈로그</a>
-        <a href="writers.html" class="btn btn--outline" style="padding:14px 32px; font-size:1rem; border-color:rgba(255,255,255,0.3); color:white;" id="heroWritersBtn">작가 모집</a>
+      <div class="hero__actions">
+        <a href="catalog.html" class="btn btn--primary" style="padding:14px 36px; font-size:1rem;" id="heroCatalogBtn">도서 카탈로그</a>
+        <a href="writers.html" class="btn btn--outline" style="padding:14px 36px; font-size:1rem; border-color:rgba(255,255,255,0.2); color:rgba(255,255,255,0.9);" id="heroWritersBtn">작가 모집</a>
       </div>
       <div class="hero__stats">
         <div>
@@ -89,32 +89,7 @@
     <div class="container">
       <h2 class="section__title" data-i18n-title="featuredTitle">주요 시리즈</h2>
       <p class="section__desc" data-i18n-desc="featuredDesc">체계적으로 구성된 시리즈를 만나보세요</p>
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:20px;">
-        <div class="series-banner" style="cursor:pointer;" onclick="location.href='catalog.html?category=travel'">
-          <div class="series-banner__icon">&#x1F30F;</div>
-          <div class="series-banner__info">
-            <h3>100+개국 여행자의 서재</h3>
-            <p>110개국 이상을 여행한 저자의 생생한 여행 가이드 시리즈</p>
-          </div>
-          <div class="series-banner__count">11 titles</div>
-        </div>
-        <div class="series-banner" style="cursor:pointer;" onclick="location.href='catalog.html?category=korean'">
-          <div class="series-banner__icon">&#x1F1F0;&#x1F1F7;</div>
-          <div class="series-banner__info">
-            <h3>K-Drama & K-Life Korean</h3>
-            <p>K-드라마와 한국 생활 속 대화로 배우는 한국어 시리즈</p>
-          </div>
-          <div class="series-banner__count">20 titles</div>
-        </div>
-        <div class="series-banner" style="cursor:pointer;" onclick="location.href='catalog.html?category=energy'">
-          <div class="series-banner__icon">&#x26A1;</div>
-          <div class="series-banner__info">
-            <h3>Building Energy Simulation</h3>
-            <p>EnergyPlus 기반 건물에너지 시뮬레이션 및 AI/LLM 시리즈</p>
-          </div>
-          <div class="series-banner__count">17 titles</div>
-        </div>
-      </div>
+      <div class="series-grid" id="seriesHighlights"></div>
     </div>
   </section>
 
@@ -161,9 +136,11 @@
       <div class="footer__col">
         <h4>Categories</h4>
         <a href="catalog.html?category=travel">Travel</a>
-        <a href="catalog.html?category=korean">Korean Language</a>
+        <a href="catalog.html?category=speaking">Korean Speaking</a>
+        <a href="catalog.html?category=writing">Korean Writing</a>
         <a href="catalog.html?category=energy">Energy Simulation</a>
-        <a href="catalog.html?category=tech">Technology</a>
+        <a href="catalog.html?category=silver">Silver Art</a>
+        <a href="catalog.html?category=divination">Divination</a>
       </div>
       <div class="footer__col">
         <h4>Company</h4>
@@ -173,10 +150,9 @@
       </div>
       <div class="footer__col">
         <h4>Purchase</h4>
-        <a href="#">Amazon</a>
-        <a href="#">Google Play Books</a>
-        <a href="#">교보문고</a>
-        <a href="#">YES24</a>
+        <a href="https://www.amazon.com/s?k=Spectrum+Workshop" target="_blank">Amazon</a>
+        <a href="https://play.google.com/store/books/author?id=Spectrum+Workshop" target="_blank">Google Play Books</a>
+        <a href="https://search.kyobobook.co.kr/search?keyword=%EC%8A%A4%ED%8E%99%ED%8A%B8%EB%9F%BC%EA%B3%B5%EC%9E%91%EC%86%8C" target="_blank">교보문고</a>
       </div>
     </div>
     <div class="footer__bottom">

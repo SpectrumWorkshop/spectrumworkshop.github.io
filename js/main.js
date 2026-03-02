@@ -230,7 +230,9 @@ function getStatusBadge(status) {
     'published': `<span class="badge badge--published">${currentLang === 'ko' ? '출간' : 'Published'}</span>`,
     'ready': `<span class="badge badge--ready">${currentLang === 'ko' ? '출간대기' : 'Ready'}</span>`,
     'in_progress': `<span class="badge badge--progress">${currentLang === 'ko' ? '집필중' : 'In Progress'}</span>`,
-    'planned': `<span class="badge badge--planned">${currentLang === 'ko' ? '기획중' : 'Planned'}</span>`
+    'planned': `<span class="badge badge--planned">${currentLang === 'ko' ? '기획중' : 'Planned'}</span>`,
+    'draft': `<span class="badge badge--draft">${currentLang === 'ko' ? '초안' : 'Draft'}</span>`,
+    'hold': `<span class="badge badge--hold">${currentLang === 'ko' ? '보류' : 'On Hold'}</span>`
   };
   return map[status] || '';
 }
@@ -238,10 +240,9 @@ function getStatusBadge(status) {
 function getCoverGradient(category) {
   const gradients = {
     'travel': 'linear-gradient(135deg, #1565c0, #42a5f5)',
-    'korean': 'linear-gradient(135deg, #c62828, #ef5350)',
+    'speaking': 'linear-gradient(135deg, #c62828, #ef5350)',
+    'writing': 'linear-gradient(135deg, #1b5e20, #66bb6a)',
     'energy': 'linear-gradient(135deg, #e65100, #ff9800)',
-    'fiction': 'linear-gradient(135deg, #7b1fa2, #ba68c8)',
-    'tech': 'linear-gradient(135deg, #2e7d32, #66bb6a)',
     'silver': 'linear-gradient(135deg, #546e7a, #b0bec5)',
     'divination': 'linear-gradient(135deg, #4a148c, #9c27b0)'
   };
@@ -251,10 +252,9 @@ function getCoverGradient(category) {
 function getCategoryIcon(category) {
   const icons = {
     'travel': '\u{1F30F}',
-    'korean': '\u{1F1F0}\u{1F1F7}',
+    'speaking': '\u{1F1F0}\u{1F1F7}',
+    'writing': '\u270D\uFE0F',
     'energy': '\u26A1',
-    'fiction': '\u{1F4D6}',
-    'tech': '\u{1F4BB}',
     'silver': '\u{1F48E}',
     'divination': '\u2728'
   };
@@ -534,12 +534,48 @@ function toggleLang() {
   renderPage();
 }
 
+// --- Series Highlights (Home) ---
+function renderSeriesHighlights() {
+  const container = document.getElementById('seriesHighlights');
+  if (!container || !booksData) return;
+
+  const seriesMap = {};
+  booksData.books.forEach(b => {
+    if (!b.series) return;
+    const key = b.series;
+    if (!seriesMap[key]) {
+      seriesMap[key] = {
+        name: currentLang === 'ko' ? b.series : (b.series_en || b.series),
+        category: b.category,
+        count: 0,
+        icon: getCategoryIcon(b.category)
+      };
+    }
+    seriesMap[key].count++;
+  });
+
+  const topSeries = Object.values(seriesMap)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 6);
+
+  container.innerHTML = topSeries.map(s => `
+    <div class="series-banner" style="cursor:pointer;" onclick="location.href='catalog.html?category=${s.category}'">
+      <div class="series-banner__icon">${s.icon}</div>
+      <div class="series-banner__info">
+        <h3>${s.name}</h3>
+      </div>
+      <div class="series-banner__count">${s.count} ${t('units')}</div>
+    </div>
+  `).join('');
+}
+
 // --- Page Render ---
 function renderPage() {
   updateStaticText();
   renderCategoryStats();
   renderLatestBooks();
   renderBookGrid();
+  renderSeriesHighlights();
   updateHeroStats();
 }
 
