@@ -1257,7 +1257,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-01.jpg",
       "preview_available": false,
@@ -1289,7 +1289,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-02.jpg",
       "preview_available": false,
@@ -1321,7 +1321,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-03.jpg",
       "preview_available": false,
@@ -1353,7 +1353,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-04.jpg",
       "preview_available": false,
@@ -1385,7 +1385,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-05.jpg",
       "preview_available": false,
@@ -1417,7 +1417,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-06.jpg",
       "preview_available": false,
@@ -1449,7 +1449,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-07.jpg",
       "preview_available": false,
@@ -1481,7 +1481,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-08.jpg",
       "preview_available": false,
@@ -1510,7 +1510,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-09.jpg",
       "preview_available": false,
@@ -1542,7 +1542,7 @@
       "format": [
         "paperback"
       ],
-      "price": 6.99,
+      "price": 9.99,
       "isbn": null,
       "cover": "images/hm-10.jpg",
       "preview_available": false,
@@ -2360,6 +2360,396 @@
         "craft"
       ],
       "series_number": 3
+    },
+    {
+      "id": "kc-01",
+      "category": "speaking",
+      "series": "K-Campus Korean",
+      "series_en": "K-Campus Korean",
+      "title_ko": "K-Campus Korean: Campus Korean",
+      "title_en": "K-Campus Korean: Campus Korean",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-Campus Korean 시리즈 - K-Campus Korean: Campus Korean",
+      "description_en": "Learn Korean through K-Campus Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kc-01.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 1,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:5SFSYP9C718"
+      }
+    },
+    {
+      "id": "kc-02",
+      "category": "speaking",
+      "series": "K-Campus Korean",
+      "series_en": "K-Campus Korean",
+      "title_ko": "K-Campus Korean: Dorm & Library Korean",
+      "title_en": "K-Campus Korean: Dorm & Library Korean",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-Campus Korean 시리즈 - K-Campus Korean: Dorm & Library Korean",
+      "description_en": "Learn Korean through K-Campus Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kc-02.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 2,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:6581T7HRYHT"
+      }
+    },
+    {
+      "id": "kc-03",
+      "category": "speaking",
+      "series": "K-Campus Korean",
+      "series_en": "K-Campus Korean",
+      "title_ko": "K-Campus Korean: Clubs & Part-time Korean",
+      "title_en": "K-Campus Korean: Clubs & Part-time Korean",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-Campus Korean 시리즈 - K-Campus Korean: Clubs & Part-time Korean",
+      "description_en": "Learn Korean through K-Campus Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kc-03.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 3,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:CX3WBYAK4SS"
+      }
+    },
+    {
+      "id": "kdi-01",
+      "category": "speaking",
+      "series": "K-Dialect Korean",
+      "series_en": "K-Dialect Korean",
+      "title_ko": "K-Dialect Korean: Korean Dialects",
+      "title_en": "K-Dialect Korean: Korean Dialects",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-Dialect Korean 시리즈 - K-Dialect Korean: Korean Dialects",
+      "description_en": "Learn Korean through K-Dialect Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kdi-01.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 1,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:5DWJXUWDZ1U"
+      }
+    },
+    {
+      "id": "kdi-02",
+      "category": "speaking",
+      "series": "K-Dialect Korean",
+      "series_en": "K-Dialect Korean",
+      "title_ko": "K-Dialect Korean: Busan Dialect Korean",
+      "title_en": "K-Dialect Korean: Busan Dialect Korean",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-Dialect Korean 시리즈 - K-Dialect Korean: Busan Dialect Korean",
+      "description_en": "Learn Korean through K-Dialect Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kdi-02.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 2,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:51PRBSEK3XW"
+      }
+    },
+    {
+      "id": "kdi-03",
+      "category": "speaking",
+      "series": "K-Dialect Korean",
+      "series_en": "K-Dialect Korean",
+      "title_ko": "K-Dialect Korean: Jeolla Dialect Korean",
+      "title_en": "K-Dialect Korean: Jeolla Dialect Korean",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-Dialect Korean 시리즈 - K-Dialect Korean: Jeolla Dialect Korean",
+      "description_en": "Learn Korean through K-Dialect Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kdi-03.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 3,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:3XZBRAZYN9L"
+      }
+    },
+    {
+      "id": "kdi-04",
+      "category": "speaking",
+      "series": "K-Dialect Korean",
+      "series_en": "K-Dialect Korean",
+      "title_ko": "K-Dialect Korean: Chungcheong Dialect Korean",
+      "title_en": "K-Dialect Korean: Chungcheong Dialect Korean",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-Dialect Korean 시리즈 - K-Dialect Korean: Chungcheong Dialect Korean",
+      "description_en": "Learn Korean through K-Dialect Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kdi-04.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 4,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:J9QTSE41JSJ"
+      }
+    },
+    {
+      "id": "kdi-05",
+      "category": "speaking",
+      "series": "K-Dialect Korean",
+      "series_en": "K-Dialect Korean",
+      "title_ko": "K-Dialect Korean: Gangwon & Jeju Dialect Korean",
+      "title_en": "K-Dialect Korean: Gangwon & Jeju Dialect Korean",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-Dialect Korean 시리즈 - K-Dialect Korean: Gangwon & Jeju Dialect Korean",
+      "description_en": "Learn Korean through K-Dialect Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/kdi-05.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 5,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:11BS6J9LUSW"
+      }
+    },
+    {
+      "id": "khi-01",
+      "category": "speaking",
+      "series": "K-History Korean",
+      "series_en": "K-History Korean",
+      "title_ko": "K-History Korean: Three Kingdoms",
+      "title_en": "K-History Korean: Three Kingdoms",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-History Korean 시리즈 - K-History Korean: Three Kingdoms",
+      "description_en": "Learn Korean through K-History Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/khi-01.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 1,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:U1LRBU231SA"
+      }
+    },
+    {
+      "id": "khi-02",
+      "category": "speaking",
+      "series": "K-History Korean",
+      "series_en": "K-History Korean",
+      "title_ko": "K-History Korean: Goryeo Dynasty",
+      "title_en": "K-History Korean: Goryeo Dynasty",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-History Korean 시리즈 - K-History Korean: Goryeo Dynasty",
+      "description_en": "Learn Korean through K-History Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/khi-02.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 2,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:U9R4ZZ6ZSS2"
+      }
+    },
+    {
+      "id": "khi-03",
+      "category": "speaking",
+      "series": "K-History Korean",
+      "series_en": "K-History Korean",
+      "title_ko": "K-History Korean: Joseon Dynasty",
+      "title_en": "K-History Korean: Joseon Dynasty",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-History Korean 시리즈 - K-History Korean: Joseon Dynasty",
+      "description_en": "Learn Korean through K-History Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/khi-03.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 3,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:4XPSTXSRR5Z"
+      }
+    },
+    {
+      "id": "khi-04",
+      "category": "speaking",
+      "series": "K-History Korean",
+      "series_en": "K-History Korean",
+      "title_ko": "K-History Korean: Modern History",
+      "title_en": "K-History Korean: Modern History",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-History Korean 시리즈 - K-History Korean: Modern History",
+      "description_en": "Learn Korean through K-History Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/khi-04.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 4,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:3DPTX1R5X5L"
+      }
+    },
+    {
+      "id": "khi-05",
+      "category": "speaking",
+      "series": "K-History Korean",
+      "series_en": "K-History Korean",
+      "title_ko": "K-History Korean: Contemporary Korea",
+      "title_en": "K-History Korean: Contemporary Korea",
+      "subtitle": "Complete Edition (A1-B2)",
+      "author": "Spectrum Workshop",
+      "language": "en",
+      "description_ko": "K-History Korean 시리즈 - K-History Korean: Contemporary Korea",
+      "description_en": "Learn Korean through K-History Korean themed dialogues - Complete Edition",
+      "status": "published",
+      "format": [
+        "epub"
+      ],
+      "price": 9.99,
+      "currency": "USD",
+      "isbn": null,
+      "cover": "images/khi-05.jpg",
+      "preview_available": false,
+      "tags": [
+        "korean",
+        "language learning"
+      ],
+      "series_number": 5,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=GGKEY:2HEKWXKT2XR"
+      }
     }
   ]
 }
