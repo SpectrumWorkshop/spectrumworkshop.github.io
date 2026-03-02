@@ -94,7 +94,8 @@
         "epub",
         "pdf"
       ],
-      "price": null,
+      "price": 9.99,
+      "currency": "USD",
       "isbn": null,
       "cover": "images/travel-00-02.jpg",
       "preview_available": true,
@@ -124,7 +125,8 @@
         "epub",
         "pdf"
       ],
-      "price": null,
+      "price": 9.99,
+      "currency": "USD",
       "isbn": null,
       "cover": "images/travel-10-02.jpg",
       "preview_available": true,
