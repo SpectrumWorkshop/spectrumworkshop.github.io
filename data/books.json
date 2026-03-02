@@ -63,7 +63,8 @@
         "epub",
         "pdf"
       ],
-      "price": null,
+      "price": 14900,
+      "currency": "KRW",
       "isbn": null,
       "cover": "images/travel-00-01.jpg",
       "preview_available": true,
