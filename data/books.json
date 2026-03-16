@@ -3444,7 +3444,7 @@
       "price": 7.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/hm-16.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GRDCZJYW"
@@ -3474,7 +3474,7 @@
       "price": 7.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/hm-17.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GRDJQSD5"
@@ -3504,7 +3504,7 @@
       "price": 7.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/hm-18.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GRDV1MJX"
@@ -3534,7 +3534,7 @@
       "price": 7.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/hm-19.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GRDP6MXY"
@@ -3564,7 +3564,7 @@
       "price": 7.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/hm-20.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GRFL9BQ8"
@@ -3594,7 +3594,7 @@
       "price": 7.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/hm-21.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GRFC485C"
@@ -3624,7 +3624,7 @@
       "price": 7.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/hm-22.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GR428H91"
@@ -3654,7 +3654,7 @@
       "price": 7.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/hm-23.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "amazon_pb": "https://www.amazon.com/dp/B0GR3YT4KT"
@@ -3945,7 +3945,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/khr-01.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=HGKNUY1U7E0"
@@ -3974,7 +3974,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/khr-02.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=U4042B2056P"
@@ -4003,7 +4003,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/khr-03.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=2RW17ZDQE69"
@@ -4032,7 +4032,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kn-01.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=WLE5Z19QLT8"
@@ -4061,7 +4061,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kn-02.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=ULAYRDG29JB"
@@ -4090,7 +4090,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kn-03.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=ULKFNEZS1YR"
@@ -4119,7 +4119,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kn-04.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=28JF1HBDP2Q"
@@ -4148,7 +4148,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kn-05.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=1G6GJ5A0B27"
@@ -4177,7 +4177,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/ksl-01.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=ZWN5ZGSZ9TS"
@@ -4206,7 +4206,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/ksl-02.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=2GUPWALPPPC"
@@ -4235,7 +4235,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/ksl-03.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {
         "google_play": "https://play.google.com/store/books/details?id=KN1DP8NW995"
@@ -4265,7 +4265,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kwb-01.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {},
       "tags": [
@@ -4294,7 +4294,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kwb-02.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {},
       "tags": [
@@ -4323,7 +4323,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kwb-03.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {},
       "tags": [
@@ -4352,7 +4352,7 @@
       "price": 4.99,
       "currency": "USD",
       "isbn": null,
-      "cover": "images/kwb-04.jpg",
+      "cover": null,
       "preview_available": false,
       "store_links": {},
       "tags": [
