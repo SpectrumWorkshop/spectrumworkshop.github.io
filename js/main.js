@@ -230,7 +230,7 @@ function getStatusBadge(status) {
     'published': `<span class="badge badge--published">${currentLang === 'ko' ? '출간' : 'Published'}</span>`,
     'ready': `<span class="badge badge--ready">${currentLang === 'ko' ? '출간대기' : 'Ready'}</span>`,
     'in_progress': `<span class="badge badge--progress">${currentLang === 'ko' ? '집필중' : 'In Progress'}</span>`,
-    'planned': `<span class="badge badge--planned">${currentLang === 'ko' ? '기획중' : 'Planned'}</span>`,
+    'planned': `<span class="badge badge--planned">${currentLang === 'ko' ? '출간예정' : 'Planned'}</span>`,
     'draft': `<span class="badge badge--draft">${currentLang === 'ko' ? '초안' : 'Draft'}</span>`,
     'hold': `<span class="badge badge--hold">${currentLang === 'ko' ? '보류' : 'On Hold'}</span>`
   };
@@ -240,8 +240,8 @@ function getStatusBadge(status) {
 function getCoverGradient(category) {
   const gradients = {
     'travel': 'linear-gradient(135deg, #1565c0, #42a5f5)',
-    'speaking': 'linear-gradient(135deg, #c62828, #ef5350)',
-    'writing': 'linear-gradient(135deg, #1b5e20, #66bb6a)',
+    'korean': 'linear-gradient(135deg, #c62828, #ef5350)',
+    'technology': 'linear-gradient(135deg, #263238, #546e7a)',
     'energy': 'linear-gradient(135deg, #e65100, #ff9800)',
     'silver': 'linear-gradient(135deg, #546e7a, #b0bec5)',
     'divination': 'linear-gradient(135deg, #4a148c, #9c27b0)'
@@ -252,8 +252,8 @@ function getCoverGradient(category) {
 function getCategoryIcon(category) {
   const icons = {
     'travel': '\u{1F30F}',
-    'speaking': '\u{1F1F0}\u{1F1F7}',
-    'writing': '\u270D\uFE0F',
+    'korean': '\u{1F1F0}\u{1F1F7}',
+    'technology': '\u{1F3D7}\uFE0F',
     'energy': '\u26A1',
     'silver': '\u{1F48E}',
     'divination': '\u2728'
@@ -298,6 +298,53 @@ function renderBookCard(book) {
   `;
 }
 
+function renderSeriesGroup(seriesName, books) {
+  const icon = getCategoryIcon(books[0].category);
+  const publishedCount = books.filter(b => b.status === 'published' || b.status === 'ready').length;
+  const plannedCount = books.filter(b => b.status === 'planned').length;
+  const statusText = publishedCount > 0
+    ? `${publishedCount} ${currentLang === 'ko' ? '출간' : 'published'}` + (plannedCount > 0 ? ` · ${plannedCount} ${currentLang === 'ko' ? '예정' : 'planned'}` : '')
+    : `${plannedCount} ${currentLang === 'ko' ? '출간예정' : 'planned'}`;
+  const priceText = formatPrice(books[0]);
+  const groupId = 'sg-' + seriesName.replace(/[^a-zA-Z0-9가-힣]/g, '').slice(0, 20);
+
+  return `
+    <div class="series-group" style="grid-column: 1/-1;">
+      <div class="series-group__header" onclick="toggleSeriesGroup('${groupId}')" style="
+        display:flex; align-items:center; gap:16px; padding:20px 24px;
+        background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);
+        cursor:pointer; transition:all 0.3s;">
+        <div style="font-size:2rem;">${icon}</div>
+        <div style="flex:1; min-width:0;">
+          <h3 style="font-size:1.05rem; font-weight:700; margin-bottom:4px;">${seriesName}</h3>
+          <div style="font-size:0.82rem; color:var(--text-light);">
+            ${books.length} ${t('units')} · ${statusText} · ${priceText}
+          </div>
+        </div>
+        <div id="${groupId}-arrow" style="font-size:1.2rem; color:var(--text-light); transition:transform 0.3s;">&#x25B6;</div>
+      </div>
+      <div id="${groupId}" class="series-group__books" style="
+        display:none; padding:16px 0 0;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap:16px;">
+        ${books.map(renderBookCard).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function toggleSeriesGroup(id) {
+  const el = document.getElementById(id);
+  const arrow = document.getElementById(id + '-arrow');
+  if (!el) return;
+  if (el.style.display === 'none' || !el.style.display) {
+    el.style.display = 'grid';
+    if (arrow) arrow.style.transform = 'rotate(90deg)';
+  } else {
+    el.style.display = 'none';
+    if (arrow) arrow.style.transform = 'rotate(0deg)';
+  }
+}
+
 function renderBookGrid() {
   const grid = document.getElementById('bookGrid');
   if (!grid) return;
@@ -309,7 +356,41 @@ function renderBookGrid() {
     </div>`;
     return;
   }
-  grid.innerHTML = books.map(renderBookCard).join('');
+
+  // Group large planned series (10+ books with mostly planned status)
+  const seriesMap = {};
+  const individualBooks = [];
+
+  books.forEach(b => {
+    if (!b.series) { individualBooks.push(b); return; }
+    if (!seriesMap[b.series]) seriesMap[b.series] = [];
+    seriesMap[b.series].push(b);
+  });
+
+  let html = '';
+  const renderedSeries = new Set();
+
+  books.forEach(b => {
+    if (!b.series || !seriesMap[b.series]) {
+      html += renderBookCard(b);
+      return;
+    }
+    if (renderedSeries.has(b.series)) return;
+    renderedSeries.add(b.series);
+
+    const seriesBooks = seriesMap[b.series];
+    const plannedRatio = seriesBooks.filter(x => x.status === 'planned').length / seriesBooks.length;
+
+    if (seriesBooks.length >= 10 && plannedRatio > 0.5) {
+      // Render as collapsible series group
+      html += renderSeriesGroup(currentLang === 'ko' ? b.series : (b.series_en || b.series), seriesBooks);
+    } else {
+      // Render individual cards
+      html += seriesBooks.map(renderBookCard).join('');
+    }
+  });
+
+  grid.innerHTML = html;
 }
 
 // --- Category Stats ---

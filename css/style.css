@@ -186,8 +186,8 @@ ul { list-style: none; }
 }
 .category-card:hover .category-card__icon { transform: scale(1.1); }
 .category-card__icon--travel { background: linear-gradient(135deg, #e3f2fd, #bbdefb); }
-.category-card__icon--speaking { background: linear-gradient(135deg, #fce4ec, #f8bbd0); }
-.category-card__icon--writing { background: linear-gradient(135deg, #e8f5e9, #c8e6c9); }
+.category-card__icon--korean { background: linear-gradient(135deg, #fce4ec, #f8bbd0); }
+.category-card__icon--technology { background: linear-gradient(135deg, #eceff1, #b0bec5); }
 .category-card__icon--energy { background: linear-gradient(135deg, #fff3e0, #ffe0b2); }
 .category-card__icon--silver { background: linear-gradient(135deg, #eceff1, #cfd8dc); }
 .category-card__icon--divination { background: linear-gradient(135deg, #f3e5f5, #e1bee7); }
