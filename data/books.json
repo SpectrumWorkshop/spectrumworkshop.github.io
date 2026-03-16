@@ -4363,6 +4363,130 @@
       "series_number": 4
     },
     {
+      "id": "cert-01",
+      "category": "technology",
+      "series": "지능형건축물 인증 해설서",
+      "series_en": "IBS Certification Guide",
+      "title_ko": "지능형건축물 인증 해설서 — 제1권 주거시설 예비인증",
+      "title_en": "IBS Certification Guide Vol.1: Residential Pre-certification",
+      "subtitle": "설계 단계 37개 평가항목 해설과 실전 사례",
+      "author": "사단법인 한국지능형스마트건축물협회",
+      "language": "ko",
+      "description_ko": "설계 단계 37개 평가항목 해설과 실전 사례",
+      "description_en": "IBS Certification Guide Vol.1: Residential Pre-certification",
+      "status": "planned",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": 25000,
+      "currency": "KRW",
+      "isbn": null,
+      "cover": null,
+      "preview_available": false,
+      "store_links": {},
+      "tags": [
+        "지능형건축물",
+        "인증",
+        "IBS",
+        "스마트빌딩"
+      ],
+      "series_number": 1
+    },
+    {
+      "id": "cert-02",
+      "category": "technology",
+      "series": "지능형건축물 인증 해설서",
+      "series_en": "IBS Certification Guide",
+      "title_ko": "지능형건축물 인증 해설서 — 제2권 주거시설 본인증",
+      "title_en": "IBS Certification Guide Vol.2: Residential Certification",
+      "subtitle": "시공·운영 단계 37개 평가항목 해설과 실전 사례",
+      "author": "사단법인 한국지능형스마트건축물협회",
+      "language": "ko",
+      "description_ko": "시공·운영 단계 37개 평가항목 해설과 실전 사례",
+      "description_en": "IBS Certification Guide Vol.2: Residential Certification",
+      "status": "planned",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": 25000,
+      "currency": "KRW",
+      "isbn": null,
+      "cover": null,
+      "preview_available": false,
+      "store_links": {},
+      "tags": [
+        "지능형건축물",
+        "인증",
+        "IBS",
+        "스마트빌딩"
+      ],
+      "series_number": 2
+    },
+    {
+      "id": "cert-03",
+      "category": "technology",
+      "series": "지능형건축물 인증 해설서",
+      "series_en": "IBS Certification Guide",
+      "title_ko": "지능형건축물 인증 해설서 — 제3권 비주거시설 예비인증",
+      "title_en": "IBS Certification Guide Vol.3: Non-residential Pre-certification",
+      "subtitle": "설계 단계 60개 평가항목 해설과 실전 사례",
+      "author": "사단법인 한국지능형스마트건축물협회",
+      "language": "ko",
+      "description_ko": "설계 단계 60개 평가항목 해설과 실전 사례",
+      "description_en": "IBS Certification Guide Vol.3: Non-residential Pre-certification",
+      "status": "planned",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": 25000,
+      "currency": "KRW",
+      "isbn": null,
+      "cover": null,
+      "preview_available": false,
+      "store_links": {},
+      "tags": [
+        "지능형건축물",
+        "인증",
+        "IBS",
+        "스마트빌딩"
+      ],
+      "series_number": 3
+    },
+    {
+      "id": "cert-04",
+      "category": "technology",
+      "series": "지능형건축물 인증 해설서",
+      "series_en": "IBS Certification Guide",
+      "title_ko": "지능형건축물 인증 해설서 — 제4권 비주거시설 본인증",
+      "title_en": "IBS Certification Guide Vol.4: Non-residential Certification",
+      "subtitle": "시공·운영 단계 60개 평가항목 해설과 실전 사례",
+      "author": "사단법인 한국지능형스마트건축물협회",
+      "language": "ko",
+      "description_ko": "시공·운영 단계 60개 평가항목 해설과 실전 사례",
+      "description_en": "IBS Certification Guide Vol.4: Non-residential Certification",
+      "status": "planned",
+      "format": [
+        "epub",
+        "pdf"
+      ],
+      "price": 25000,
+      "currency": "KRW",
+      "isbn": null,
+      "cover": null,
+      "preview_available": false,
+      "store_links": {},
+      "tags": [
+        "지능형건축물",
+        "인증",
+        "IBS",
+        "스마트빌딩"
+      ],
+      "series_number": 4
+    },
+    {
       "id": "s1-a01",
       "category": "technology",
       "series": "건물 에너지 관리 실무 총서",
@@ -8483,130 +8607,6 @@
         "파인튜닝"
       ],
       "series_number": 7
-    },
-    {
-      "id": "cert-01",
-      "category": "technology",
-      "series": "지능형건축물 인증 해설서",
-      "series_en": "IBS Certification Guide",
-      "title_ko": "지능형건축물 인증 해설서 — 제1권 주거시설 예비인증",
-      "title_en": "IBS Certification Guide Vol.1: Residential Pre-certification",
-      "subtitle": "설계 단계 37개 평가항목 해설과 실전 사례",
-      "author": "사단법인 한국지능형스마트건축물협회",
-      "language": "ko",
-      "description_ko": "설계 단계 37개 평가항목 해설과 실전 사례",
-      "description_en": "IBS Certification Guide Vol.1: Residential Pre-certification",
-      "status": "planned",
-      "format": [
-        "epub",
-        "pdf"
-      ],
-      "price": 25000,
-      "currency": "KRW",
-      "isbn": null,
-      "cover": null,
-      "preview_available": false,
-      "store_links": {},
-      "tags": [
-        "지능형건축물",
-        "인증",
-        "IBS",
-        "스마트빌딩"
-      ],
-      "series_number": 1
-    },
-    {
-      "id": "cert-02",
-      "category": "technology",
-      "series": "지능형건축물 인증 해설서",
-      "series_en": "IBS Certification Guide",
-      "title_ko": "지능형건축물 인증 해설서 — 제2권 주거시설 본인증",
-      "title_en": "IBS Certification Guide Vol.2: Residential Certification",
-      "subtitle": "시공·운영 단계 37개 평가항목 해설과 실전 사례",
-      "author": "사단법인 한국지능형스마트건축물협회",
-      "language": "ko",
-      "description_ko": "시공·운영 단계 37개 평가항목 해설과 실전 사례",
-      "description_en": "IBS Certification Guide Vol.2: Residential Certification",
-      "status": "planned",
-      "format": [
-        "epub",
-        "pdf"
-      ],
-      "price": 25000,
-      "currency": "KRW",
-      "isbn": null,
-      "cover": null,
-      "preview_available": false,
-      "store_links": {},
-      "tags": [
-        "지능형건축물",
-        "인증",
-        "IBS",
-        "스마트빌딩"
-      ],
-      "series_number": 2
-    },
-    {
-      "id": "cert-03",
-      "category": "technology",
-      "series": "지능형건축물 인증 해설서",
-      "series_en": "IBS Certification Guide",
-      "title_ko": "지능형건축물 인증 해설서 — 제3권 비주거시설 예비인증",
-      "title_en": "IBS Certification Guide Vol.3: Non-residential Pre-certification",
-      "subtitle": "설계 단계 60개 평가항목 해설과 실전 사례",
-      "author": "사단법인 한국지능형스마트건축물협회",
-      "language": "ko",
-      "description_ko": "설계 단계 60개 평가항목 해설과 실전 사례",
-      "description_en": "IBS Certification Guide Vol.3: Non-residential Pre-certification",
-      "status": "planned",
-      "format": [
-        "epub",
-        "pdf"
-      ],
-      "price": 25000,
-      "currency": "KRW",
-      "isbn": null,
-      "cover": null,
-      "preview_available": false,
-      "store_links": {},
-      "tags": [
-        "지능형건축물",
-        "인증",
-        "IBS",
-        "스마트빌딩"
-      ],
-      "series_number": 3
-    },
-    {
-      "id": "cert-04",
-      "category": "technology",
-      "series": "지능형건축물 인증 해설서",
-      "series_en": "IBS Certification Guide",
-      "title_ko": "지능형건축물 인증 해설서 — 제4권 비주거시설 본인증",
-      "title_en": "IBS Certification Guide Vol.4: Non-residential Certification",
-      "subtitle": "시공·운영 단계 60개 평가항목 해설과 실전 사례",
-      "author": "사단법인 한국지능형스마트건축물협회",
-      "language": "ko",
-      "description_ko": "시공·운영 단계 60개 평가항목 해설과 실전 사례",
-      "description_en": "IBS Certification Guide Vol.4: Non-residential Certification",
-      "status": "planned",
-      "format": [
-        "epub",
-        "pdf"
-      ],
-      "price": 25000,
-      "currency": "KRW",
-      "isbn": null,
-      "cover": null,
-      "preview_available": false,
-      "store_links": {},
-      "tags": [
-        "지능형건축물",
-        "인증",
-        "IBS",
-        "스마트빌딩"
-      ],
-      "series_number": 4
     }
   ]
 }
