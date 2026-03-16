@@ -227,7 +227,8 @@
       "cover": "images/kdrama-01.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=OIu-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=OIu-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS4TLHHD"
       },
       "tags": [
         "korean",
@@ -259,7 +260,8 @@
       "cover": "images/kdrama-02.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Sou-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=Sou-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS511VQP"
       },
       "tags": [
         "korean",
@@ -292,7 +294,8 @@
       "cover": "images/kdrama-03.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=PIu-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=PIu-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS4WPQHP"
       },
       "tags": [
         "korean",
@@ -325,7 +328,8 @@
       "cover": "images/kdrama-04.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Oou-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=Oou-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS4YZJMY"
       },
       "tags": [
         "korean",
@@ -357,7 +361,8 @@
       "cover": "images/kdrama-05.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=SIu-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=SIu-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS55LXKH"
       },
       "tags": [
         "korean",
@@ -390,7 +395,8 @@
       "cover": "images/kdrama-06.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Nou-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=Nou-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS57TRHL"
       },
       "tags": [
         "korean",
@@ -423,7 +429,8 @@
       "cover": "images/kdrama-07.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Tou-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=Tou-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS59PYL3"
       },
       "tags": [
         "korean",
@@ -456,7 +463,8 @@
       "cover": "images/kdrama-08.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Rou-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=Rou-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS52C8RL"
       },
       "tags": [
         "korean",
@@ -489,7 +497,8 @@
       "cover": "images/kdrama-09.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=QIu-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=QIu-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS54Z844"
       },
       "tags": [
         "korean",
@@ -522,7 +531,8 @@
       "cover": "images/kdrama-10.jpg",
       "preview_available": true,
       "store_links": {
-        "google_play": "https://play.google.com/store/books/details?id=Pou-EQAAQBAJ&hl=en"
+        "google_play": "https://play.google.com/store/books/details?id=Pou-EQAAQBAJ&hl=en",
+        "amazon": "https://www.amazon.com/dp/B0GS5V63Z4"
       },
       "tags": [
         "korean",
@@ -890,7 +900,10 @@
         "first",
         "language learning"
       ],
-      "series_number": 1
+      "series_number": 1,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=YKK2FPLB2ZX"
+      }
     },
     {
       "id": "kbeg-02",
@@ -919,7 +932,10 @@
         "daily",
         "language learning"
       ],
-      "series_number": 2
+      "series_number": 2,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=AFJ7JS78P3X"
+      }
     },
     {
       "id": "kbeg-03",
@@ -948,7 +964,10 @@
         "social",
         "language learning"
       ],
-      "series_number": 3
+      "series_number": 3,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=2KF27AWKPZD"
+      }
     },
     {
       "id": "kbeg-04",
@@ -977,7 +996,10 @@
         "work",
         "language learning"
       ],
-      "series_number": 4
+      "series_number": 4,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=HB7SG6SYZQR"
+      }
     },
     {
       "id": "kbeg-05",
@@ -1006,7 +1028,10 @@
         "culture",
         "language learning"
       ],
-      "series_number": 5
+      "series_number": 5,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=8Z3R126DWFX"
+      }
     },
     {
       "id": "kwork-01",
@@ -1036,7 +1061,10 @@
         "work",
         "language learning"
       ],
-      "series_number": 1
+      "series_number": 1,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=XF03GGAL4H4"
+      }
     },
     {
       "id": "kwork-02",
@@ -1066,7 +1094,10 @@
         "office",
         "language learning"
       ],
-      "series_number": 2
+      "series_number": 2,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=6ZFQG92G1D3"
+      }
     },
     {
       "id": "kwork-03",
@@ -1096,7 +1127,10 @@
         "business",
         "language learning"
       ],
-      "series_number": 3
+      "series_number": 3,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=0342SGH3ZH2"
+      }
     },
     {
       "id": "kwork-04",
@@ -1126,7 +1160,10 @@
         "work",
         "language learning"
       ],
-      "series_number": 4
+      "series_number": 4,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=ZZ49E4L2E92"
+      }
     },
     {
       "id": "kwork-05",
@@ -1156,7 +1193,10 @@
         "career",
         "language learning"
       ],
-      "series_number": 5
+      "series_number": 5,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=5UZGUNQH05P"
+      }
     },
     {
       "id": "kmed-01",
@@ -1185,7 +1225,10 @@
         "healthcare",
         "language learning"
       ],
-      "series_number": 1
+      "series_number": 1,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=BRPAR9CJ1E9"
+      }
     },
     {
       "id": "kmed-02",
@@ -1214,7 +1257,10 @@
         "healthcare",
         "language learning"
       ],
-      "series_number": 2
+      "series_number": 2,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=8QQDPNRPF57"
+      }
     },
     {
       "id": "kmed-03",
@@ -1243,7 +1289,10 @@
         "healthcare",
         "language learning"
       ],
-      "series_number": 3
+      "series_number": 3,
+      "store_links": {
+        "google_play": "https://play.google.com/store/books/details?id=A46B9XFDYEP"
+      }
     },
     {
       "id": "hm-01",
@@ -1496,7 +1545,10 @@
         "workbook"
       ],
       "series_number": 8,
-      "currency": "USD"
+      "currency": "USD",
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GQPWVZHK"
+      }
     },
     {
       "id": "hm-09",
@@ -1589,7 +1641,10 @@
         "workbook"
       ],
       "series_number": 11,
-      "currency": "USD"
+      "currency": "USD",
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GSBKFNZR"
+      }
     },
     {
       "id": "hm-12",
@@ -1618,7 +1673,10 @@
         "workbook"
       ],
       "series_number": 12,
-      "currency": "USD"
+      "currency": "USD",
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GRHN72CQ"
+      }
     },
     {
       "id": "hm-13",
@@ -1647,7 +1705,10 @@
         "workbook"
       ],
       "series_number": 13,
-      "currency": "USD"
+      "currency": "USD",
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GQYB32DP"
+      }
     },
     {
       "id": "hm-14",
@@ -1676,7 +1737,10 @@
         "workbook"
       ],
       "series_number": 14,
-      "currency": "USD"
+      "currency": "USD",
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GQYBF7MK"
+      }
     },
     {
       "id": "hm-15",
@@ -1705,7 +1769,10 @@
         "workbook"
       ],
       "series_number": 15,
-      "currency": "USD"
+      "currency": "USD",
+      "store_links": {
+        "amazon_pb": "https://www.amazon.com/dp/B0GQCQMPZ6"
+      }
     },
     {
       "id": "kisba-01",
@@ -1900,7 +1967,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 1
+      "series_number": 1,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GQNZZ3HN"
+      }
     },
     {
       "id": "sd-02",
@@ -1930,7 +2000,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 2
+      "series_number": 2,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GR12N3VJ"
+      }
     },
     {
       "id": "sd-03",
@@ -1960,7 +2033,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 3
+      "series_number": 3,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GQZ5Y4DS"
+      }
     },
     {
       "id": "sd-04",
@@ -1990,7 +2066,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 4
+      "series_number": 4,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GQXMB8DD"
+      }
     },
     {
       "id": "sd-05",
@@ -2020,7 +2099,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 5
+      "series_number": 5,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GQXCT6KQ"
+      }
     },
     {
       "id": "sd-06",
@@ -2050,7 +2132,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 6
+      "series_number": 6,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GQXY3GM1"
+      }
     },
     {
       "id": "sd-07",
@@ -2080,7 +2165,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 7
+      "series_number": 7,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GQXHJ4QM"
+      }
     },
     {
       "id": "sd-08",
@@ -2110,7 +2198,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 8
+      "series_number": 8,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GQYK4FW1"
+      }
     },
     {
       "id": "sd-09",
@@ -2140,7 +2231,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 9
+      "series_number": 9,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GQXM9QKL"
+      }
     },
     {
       "id": "sd-10",
@@ -2170,7 +2264,10 @@
         "destiny",
         "divination"
       ],
-      "series_number": 10
+      "series_number": 10,
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GQX9FNVZ"
+      }
     },
     {
       "id": "ws-01-ko",
@@ -2265,7 +2362,10 @@
         "쥬얼리",
         "아트"
       ],
-      "series_number": 2
+      "series_number": 2,
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012624289"
+      }
     },
     {
       "id": "ws-02",
@@ -2328,7 +2428,10 @@
         "쥬얼리",
         "아트"
       ],
-      "series_number": 3
+      "series_number": 3,
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012624290"
+      }
     },
     {
       "id": "ws-03",
@@ -2775,7 +2878,9 @@
       "isbn": "979-11-997948-0-1",
       "cover": "images/ds-01.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012679073"
+      },
       "tags": [
         "엣지AI",
         "재난안전",
@@ -2805,7 +2910,9 @@
       "isbn": "979-11-997948-1-8",
       "cover": "images/ds-02.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012679074"
+      },
       "tags": [
         "엣지AI",
         "재난안전",
@@ -2835,7 +2942,9 @@
       "isbn": "979-11-997948-2-5",
       "cover": "images/ds-03.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012679075"
+      },
       "tags": [
         "엣지AI",
         "재난안전",
@@ -2865,7 +2974,9 @@
       "isbn": "979-11-997948-3-2",
       "cover": "images/ds-04.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012679076"
+      },
       "tags": [
         "엣지AI",
         "재난안전",
@@ -2895,7 +3006,9 @@
       "isbn": "979-11-997948-4-9",
       "cover": "images/ds-05.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012679077"
+      },
       "tags": [
         "엣지AI",
         "재난안전",
@@ -2925,7 +3038,9 @@
       "isbn": "979-11-997948-5-6",
       "cover": "images/ds-06.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012679078"
+      },
       "tags": [
         "엣지AI",
         "재난안전",
@@ -2955,7 +3070,9 @@
       "isbn": "979-11-997948-6-3",
       "cover": "images/sj-01.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693130"
+      },
       "tags": [
         "사주",
         "역학",
@@ -2985,7 +3102,9 @@
       "isbn": "979-11-997948-7-0",
       "cover": "images/sj-02.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693135"
+      },
       "tags": [
         "사주",
         "역학",
@@ -3015,7 +3134,9 @@
       "isbn": "979-11-997948-8-7",
       "cover": "images/sj-03.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693138"
+      },
       "tags": [
         "사주",
         "역학",
@@ -3045,7 +3166,9 @@
       "isbn": "979-11-997948-9-4",
       "cover": "images/sj-04.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693140"
+      },
       "tags": [
         "사주",
         "역학",
@@ -3075,7 +3198,9 @@
       "isbn": "979-11-24465-00-4",
       "cover": "images/sj-05.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693142"
+      },
       "tags": [
         "사주",
         "역학",
@@ -3105,7 +3230,9 @@
       "isbn": "979-11-24465-01-1",
       "cover": "images/sj-06.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693148"
+      },
       "tags": [
         "사주",
         "역학",
@@ -3135,7 +3262,9 @@
       "isbn": "979-11-24465-02-8",
       "cover": "images/sj-07.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693150"
+      },
       "tags": [
         "사주",
         "역학",
@@ -3165,7 +3294,9 @@
       "isbn": "979-11-24465-03-5",
       "cover": "images/sj-08.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693152"
+      },
       "tags": [
         "사주",
         "역학",
@@ -3195,7 +3326,9 @@
       "isbn": "979-11-24465-04-2",
       "cover": "images/sj-09.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693153"
+      },
       "tags": [
         "사주",
         "역학",
@@ -3225,7 +3358,9 @@
       "isbn": "979-11-24465-05-9",
       "cover": "images/sj-10.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "kyobo": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000012693155"
+      },
       "tags": [
         "사주",
         "역학",
@@ -4267,7 +4402,9 @@
       "isbn": null,
       "cover": "images/kwb-01.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GRDB3984"
+      },
       "tags": [
         "korean",
         "wisdom",
@@ -4296,7 +4433,9 @@
       "isbn": null,
       "cover": "images/kwb-02.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GRFCYMQ6"
+      },
       "tags": [
         "korean",
         "wisdom",
@@ -4325,7 +4464,9 @@
       "isbn": null,
       "cover": "images/kwb-03.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GRFXX9FB"
+      },
       "tags": [
         "korean",
         "wisdom",
@@ -4354,7 +4495,9 @@
       "isbn": null,
       "cover": "images/kwb-04.jpg",
       "preview_available": false,
-      "store_links": {},
+      "store_links": {
+        "amazon": "https://www.amazon.com/dp/B0GRFVXQHM"
+      },
       "tags": [
         "korean",
         "wisdom",
