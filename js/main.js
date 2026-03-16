@@ -650,10 +650,102 @@ function renderSeriesHighlights() {
   `).join('');
 }
 
+// --- Category Dashboard ---
+function renderCategoryDashboard() {
+  const container = document.getElementById('categoryDashboard');
+  if (!container || !booksData) return;
+
+  const titleEl = document.getElementById('dashTitle');
+  const descEl = document.getElementById('dashDesc');
+  if (titleEl) titleEl.textContent = currentLang === 'ko' ? '출판 현황' : 'Publishing Dashboard';
+  if (descEl) descEl.textContent = currentLang === 'ko' ? '카테고리별 출판 현황' : 'Publishing status by category';
+
+  const catOrder = ['technology', 'korean', 'divination', 'energy', 'silver', 'travel'];
+  const catStats = {};
+  const total = booksData.books.length;
+
+  booksData.books.forEach(b => {
+    if (!catStats[b.category]) catStats[b.category] = { published: 0, planned: 0, total: 0 };
+    catStats[b.category].total++;
+    if (b.status === 'published') catStats[b.category].published++;
+    else if (b.status === 'planned') catStats[b.category].planned++;
+  });
+
+  const pubLabel = currentLang === 'ko' ? '출간' : 'Published';
+  const planLabel = currentLang === 'ko' ? '예정' : 'Planned';
+  const totalLabel = currentLang === 'ko' ? '합계' : 'Total';
+
+  let totalPub = 0, totalPlan = 0;
+  const rows = catOrder.map(catId => {
+    const cat = booksData.categories.find(c => c.id === catId);
+    const s = catStats[catId] || { published: 0, planned: 0, total: 0 };
+    totalPub += s.published;
+    totalPlan += s.planned;
+    const icon = getCategoryIcon(catId);
+    const name = cat ? (currentLang === 'ko' ? cat.name_ko : cat.name_en) : catId;
+    const iconBg = {
+      travel: '#e3f2fd', korean: '#fce4ec', technology: '#eceff1',
+      energy: '#fff3e0', silver: '#eceff1', divination: '#f3e5f5'
+    }[catId] || '#f0f0f0';
+    const pubPct = s.total > 0 ? (s.published / total * 100) : 0;
+    const planPct = s.total > 0 ? (s.planned / total * 100) : 0;
+
+    return `<tr onclick="location.href='catalog.html?category=${catId}'" style="cursor:pointer;">
+      <td><div class="dash-cat">
+        <div class="dash-cat__icon" style="background:${iconBg};">${icon}</div>
+        ${name}
+      </div></td>
+      <td class="dash-num">${s.total}</td>
+      <td class="dash-num" style="color:#28a745;">${s.published}</td>
+      <td class="dash-num" style="color:#6c757d;">${s.planned || '-'}</td>
+      <td class="dash-bar">
+        <div class="dash-bar__track">
+          <div class="dash-bar__pub" style="width:${pubPct}%;"></div>
+          <div class="dash-bar__plan" style="width:${planPct}%;"></div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+
+  container.innerHTML = `
+    <table class="dash-table">
+      <thead>
+        <tr>
+          <th>${currentLang === 'ko' ? '카테고리' : 'Category'}</th>
+          <th style="text-align:center;">${totalLabel}</th>
+          <th style="text-align:center;">${pubLabel}</th>
+          <th style="text-align:center;">${planLabel}</th>
+          <th>${currentLang === 'ko' ? '비율' : 'Ratio'}</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+      <tfoot>
+        <tr>
+          <td><strong>${totalLabel}</strong></td>
+          <td class="dash-num">${total}</td>
+          <td class="dash-num" style="color:#28a745;">${totalPub}</td>
+          <td class="dash-num" style="color:#6c757d;">${totalPlan}</td>
+          <td class="dash-bar">
+            <div class="dash-bar__track">
+              <div class="dash-bar__pub" style="width:${totalPub / total * 100}%;"></div>
+              <div class="dash-bar__plan" style="width:${totalPlan / total * 100}%;"></div>
+            </div>
+            <div class="dash-bar__labels">
+              <span style="color:#28a745;">\u25CF ${pubLabel} ${totalPub}</span>
+              <span style="color:#c0c4c8;">\u25CF ${planLabel} ${totalPlan}</span>
+            </div>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  `;
+}
+
 // --- Page Render ---
 function renderPage() {
   updateStaticText();
   renderCategoryStats();
+  renderCategoryDashboard();
   renderLatestBooks();
   renderBookGrid();
   renderSeriesHighlights();

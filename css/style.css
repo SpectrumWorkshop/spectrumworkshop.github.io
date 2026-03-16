@@ -528,6 +528,48 @@ ul { list-style: none; }
 .breadcrumb a { color: rgba(255,255,255,0.4); }
 .breadcrumb span { color: rgba(255,255,255,0.7); }
 
+/* --- Dashboard Table --- */
+.dash-table {
+  width: 100%; max-width: 720px; margin: 0 auto;
+  border-collapse: separate; border-spacing: 0;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden;
+}
+.dash-table th, .dash-table td {
+  padding: 14px 20px; text-align: left; font-size: 0.9rem;
+}
+.dash-table thead th {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  font-weight: 700; font-size: 0.82rem; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--text-light);
+  border-bottom: 2px solid var(--border);
+}
+.dash-table tbody tr { border-bottom: 1px solid var(--border); transition: background 0.2s; }
+.dash-table tbody tr:last-child { border-bottom: none; }
+.dash-table tbody tr:hover { background: rgba(67,97,238,0.03); }
+.dash-table .dash-cat { font-weight: 700; display: flex; align-items: center; gap: 10px; }
+.dash-table .dash-cat__icon {
+  width: 32px; height: 32px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center; font-size: 1rem;
+}
+.dash-table .dash-num { font-weight: 800; font-size: 1.05rem; text-align: center; }
+.dash-table .dash-bar { min-width: 160px; }
+.dash-bar__track {
+  height: 8px; background: #e9ecef; border-radius: 4px; overflow: hidden;
+  display: flex;
+}
+.dash-bar__pub { background: linear-gradient(135deg, #28a745, #5cb85c); height: 100%; transition: width 0.8s ease; }
+.dash-bar__plan { background: linear-gradient(135deg, #d6d8db, #c0c4c8); height: 100%; transition: width 0.8s ease; }
+.dash-bar__labels { display: flex; justify-content: space-between; margin-top: 4px; font-size: 0.7rem; color: var(--text-light); }
+.dash-table tfoot td {
+  font-weight: 800; border-top: 2px solid var(--border);
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+@media (max-width: 480px) {
+  .dash-table th, .dash-table td { padding: 10px 12px; font-size: 0.82rem; }
+  .dash-table .dash-bar { min-width: 80px; }
+}
+
 /* --- Scroll animations --- */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(24px); }
